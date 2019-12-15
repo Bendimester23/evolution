@@ -1,0 +1,40 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "pyrotech:book": {
+      "viewedEntries": [
+        "pyrotech:survive/rocks",
+        "pyrotech:survive/introduction",
+        "pyrotech:survive/campfire",
+        "pyrotech:appendix/ignition",
+        "pyrotech:innovate/bow_drill",
+        "pyrotech:accelerate/bloomery",
+        "pyrotech:accelerate/refractory_brick_block",
+        "pyrotech:innovate/refractory_brick",
+        "pyrotech:bloom/anvil_ironclad",
+        "pyrotech:innovate/storage_durable",
+        "pyrotech:innovate/mechanical_hopper",
+        "pyrotech:innovate/stone_sawmill",
+        "pyrotech:accelerate/bellows"
+      ],
+      "bookmarks": [],
+      "history": [
+        "pyrotech:accelerate/bellows",
+        "pyrotech:innovate/stone_sawmill",
+        "pyrotech:innovate/mechanical_hopper",
+        "pyrotech:innovate/storage_durable",
+        "pyrotech:bloom/anvil_ironclad",
+        "pyrotech:innovate/refractory_brick",
+        "pyrotech:accelerate/refractory_brick_block",
+        "pyrotech:accelerate/bloomery",
+        "pyrotech:innovate/bow_drill",
+        "pyrotech:appendix/ignition",
+        "pyrotech:survive/campfire",
+        "pyrotech:survive/introduction",
+        "pyrotech:survive/rocks"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

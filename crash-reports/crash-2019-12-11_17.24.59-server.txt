@@ -1,0 +1,141 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.9-1.12.2.jar)
+  midnight (themidnight-0.3.5.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  FarseekCoreMod (Farseek-1.12-2.4.jar)
+Contact their authors BEFORE contacting forge
+
+// Uh... Did I do that?
+
+Time: 12/11/19 5:24 PM
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Exception in server tick loop
+	at com.pg85.otg.generator.resource.VinesGen.canPlace(VinesGen.java:64)
+	at com.pg85.otg.generator.resource.VinesGen.spawn(VinesGen.java:117)
+	at com.pg85.otg.generator.resource.Resource.spawnInChunk(Resource.java:192)
+	at com.pg85.otg.generator.resource.Resource.process(Resource.java:149)
+	at com.pg85.otg.generator.ObjectSpawner.populate(ObjectSpawner.java:251)
+	at com.pg85.otg.forge.generator.OTGChunkGenerator.func_185931_b(OTGChunkGenerator.java:257)
+	at net.minecraft.world.chunk.Chunk.func_186034_a(Chunk.java:1019)
+	at net.minecraft.world.chunk.Chunk.func_186030_a(Chunk.java:999)
+	at net.minecraft.world.gen.ChunkProviderServer.func_186025_d(ChunkProviderServer.java:157)
+	at net.minecraft.server.MinecraftServer.func_71222_d(MinecraftServer.java:344)
+	at net.minecraft.server.integrated.IntegratedServer.func_71247_a(IntegratedServer.java:142)
+	at net.minecraft.server.integrated.IntegratedServer.func_71197_b(IntegratedServer.java:156)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_231, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 556431856 bytes (530 MB) / 1698168832 bytes (1619 MB) up to 3008888832 bytes (2869 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3228m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 63, tallocated: 945
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 58 mods loaded, 58 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version           | Source                                             | Signature                                |
+	|:------ |:-------------------- |:----------------- |:-------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2            | minecraft.jar                                      | None                                     |
+	| LCHIJA | mcp                  | 9.42              | minecraft.jar                                      | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99         | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | forge                | 14.23.5.2847      | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | otgcore              | 1.12.2 - v8.3     | minecraft.jar                                      | None                                     |
+	| LCHIJA | foamfixcore          | 7.7.4             | minecraft.jar                                      | None                                     |
+	| LCHIJA | biomesoplenty        | 7.0.1.2441        | BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar      | None                                     |
+	| LCHIJA | craftstudioapi       | 1.0.0             | CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar | None                                     |
+	| LCHIJA | openterraingenerator | v8.3              | OpenTerrainGenerator-1.12.2 - v8.3.jar             | None                                     |
+	| LCHIJA | animania             | 1.7.3             | animania-1.12.2-1.7.3.jar                          | None                                     |
+	| LCHIJA | aquaculture          | 1.6.8             | Aquaculture-1.12.2-1.6.8.jar                       | None                                     |
+	| LCHIJA | crafttweaker         | 4.1.20            | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | mtlib                | 3.0.6             | MTLib-3.0.6.jar                                    | None                                     |
+	| LCHIJA | modtweaker           | 4.0.17            | modtweaker-4.0.17.jar                              | None                                     |
+	| LCHIJA | jei                  | 4.15.0.291        | jei_1.12.2-4.15.0.291.jar                          | None                                     |
+	| LCHIJA | athenaeum            | 1.12.2-1.17.4     | athenaeum-1.12.2-1.17.4.jar                        | None                                     |
+	| LCHIJA | base                 | 3.13.0            | base-1.12.2-3.13.0.jar                             | None                                     |
+	| LCHIJA | biomebundle          | 5.1               | Biome_Bundle-1.12.2-v6.1.jar                       | None                                     |
+	| LCHIJA | bookshelf            | 2.3.590           | Bookshelf-1.12.2-2.3.590.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | mantle               | 1.12-1.3.3.55     | Mantle-1.12-1.3.3.55.jar                           | None                                     |
+	| LCHIJA | tconstruct           | 1.12.2-2.12.0.157 | TConstruct-1.12.2-2.12.0.157.jar                   | None                                     |
+	| LCHIJA | contenttweaker       | 1.12.2-4.9.1      | ContentTweaker-1.12.2-4.9.1.jar                    | None                                     |
+	| LCHIJA | controlling          | 3.0.7             | Controlling-3.0.7.jar                              | None                                     |
+	| LCHIJA | ctgui                | 1.0.0             | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | crafttweakerjei      | 2.0.3             | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | cucumber             | 1.1.3             | Cucumber-1.12.2-1.1.3.jar                          | None                                     |
+	| LCHIJA | custommainmenu       | 2.0.9             | CustomMainMenu-MC1.12.2-2.0.9.jar                  | None                                     |
+	| LCHIJA | gamestages           | 2.0.115           | GameStages-1.12.2-2.0.115.jar                      | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | dropt                | 1.12.2-1.16.1     | dropt-1.12.2-1.16.1.jar                            | None                                     |
+	| LCHIJA | extendedcrafting     | 1.5.6             | ExtendedCrafting-1.12.2-1.5.6.jar                  | None                                     |
+	| LCHIJA | farfromhome          | 1.0               | Far_From_Home-1.12.2-3.5.jar                       | None                                     |
+	| LCHIJA | farseek              | 2.4               | Farseek-1.12-2.4.jar                               | None                                     |
+	| LCHIJA | foamfix              | 0.10.9-1.12.2     | foamfix-0.10.9-1.12.2.jar                          | None                                     |
+	| LCHIJA | ftbbackups           | 1.1.0.1           | FTBBackups-1.1.0.1.jar                             | None                                     |
+	| LCHIJA | ftblib               | 5.4.4.5           | FTBLib-5.4.4.5.jar                                 | None                                     |
+	| LCHIJA | ftbutilities         | 5.4.0.124         | FTBUtilities-5.4.0.124.jar                         | None                                     |
+	| LCHIJA | itemfilters          | 1.0.3.12          | ItemFilters-1.0.3.12.jar                           | None                                     |
+	| LCHIJA | ftbquests            | 1.8.0.237         | FTBQuests-1.8.0.237.jar                            | None                                     |
+	| LCHIJA | gamestagebooks       | 1.12.2-1.0.2      | gamestagebooks-1.12.2-1.0.2-universal.jar          | None                                     |
+	| LCHIJA | journeymap           | 1.12.2-5.5.5      | journeymap-1.12.2-5.5.5.jar                        | None                                     |
+	| LCHIJA | mtrm                 | 1.2.2.30          | MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar         | None                                     |
+	| LCHIJA | norecipebook         | 1.2.1             | noRecipeBook_v1.2.2formc1.12.2.jar                 | None                                     |
+	| LCHIJA | oretweaker           | 1.0.2-1.12.0      | Ore Tweaker-1.0.2-1.12.0.jar                       | None                                     |
+	| LCHIJA | oreexcavation        | 1.4.143           | OreExcavation-1.4.143.jar                          | None                                     |
+	| LCHIJA | orestages            | 2.0.37            | OreStages-1.12.2-2.0.37.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | patchouli            | 1.0-20            | Patchouli-1.0-20.jar                               | None                                     |
+	| LCHIJA | pillar               | 1.2-10            | Pillar-1.2-10.jar                                  | None                                     |
+	| LCHIJA | theoneprobe          | 1.4.28            | theoneprobe-1.12-1.4.28.jar                        | None                                     |
+	| LCHIJA | pyrotech             | 1.12.2-1.4.13     | pyrotech-1.12.2-1.4.13.jar                         | None                                     |
+	| LCHIJA | recipestages         | 1.1.3             | RecipeStages-1.1.3.jar                             | None                                     |
+	| LCHIJA | resourceloader       | 1.5.3             | ResourceLoader-MC1.12.1-1.5.3.jar                  | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | streams              | 0.4.7             | Streams-1.12-0.4.7.jar                             | None                                     |
+	| LCHIJA | tetra                | 0.39.1            | tetra-1.12.2-0.39.1.jar                            | None                                     |
+	| LCHIJA | undergroundbiomes    | 1.3.7             | UndergroundBiomesConstructs-1.12-1.3.7.jar         | None                                     |
+	| LCHIJA | va                   | 1.12.2-1.5.3      | va-1.12.2-1.5.5.jar                                | None                                     |
+	| LCHIJA | vanillavistas        | 1.0               | Vanilla_Vistas 1.1.jar                             | None                                     |
+	| LCHIJA | worldstripper        | 1.6.0-1.12.2      | World-Stripper-1.6.0-1.12.2.jar                    | None                                     |
+	| LCHIJA | midnight             | 0.3.5             | themidnight-0.3.5.jar                              | None                                     |
+
+	Loaded coremods (and transformers): 
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.9-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+midnight (themidnight-0.3.5.jar)
+  com.mushroom.midnight.core.transformer.MidnightClassTransformer
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.excluded.OTGClassTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+FarseekCoreMod (Farseek-1.12-2.4.jar)
+  farseek.core.FarseekClassTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- theoneprobeIntegration (Enabled/Not Forced)
+
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

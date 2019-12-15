@@ -1,0 +1,141 @@
+[12:20:31] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[12:20:31] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[12:20:32] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:20:32] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
+Forge: 14.23.5.2847
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Circle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=1}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.5.5, zoomLevel=0, showPlayers=true, frameAlpha=100, compassFontScale=1, terrainAlpha=100, showEntityNames=true, enabled=true, showPlayerHeading=true, showVillagers=true, info2Label=Game Time, sizePercent=30, showDayNight=true, info3Label=Location, showMobs=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=Small Dots, showReticle=true, orientation=North, shape=Rectangle, showSelf=true, info4Label=Biome, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, reticleOrientation=Compass, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, position=Top Right, info1Label=Blank, fontScale=1}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5.5, mobDisplay=Small Dots, zoomLevel=0, showPlayers=true, showSelf=true, locationFormat=xzyv, playerDisplay=Small Dots, showGrid=true, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showKeys=true, showWaypointLabels=true, locationFormatVerbose=true, showMobs=true, showPets=true, fontScale=1, preferredMapType=day}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.5, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.5, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.5, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
+[12:20:32] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[12:20:32] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[12:20:32] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[12:20:32] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[12:20:32] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[12:20:34] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[12:20:34] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[12:20:35] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[12:20:35] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[12:20:35] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 72
+[12:20:35] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r738.78§8ms§r
+[12:21:09] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[12:21:09] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for streams
+[12:21:09] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[12:21:09] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[12:21:09] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 0.0,0.0
+[12:21:09] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 70.32283010628635,-4.829775402218274
+[12:21:09] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 70.32283010628635,-4.829775402218274
+[12:21:09] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 70.32283010628635,-4.829775402218274
+[12:21:09] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\waypoints
+[12:21:09] [Client thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
+[12:21:09] [Client thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
+[12:21:09] [Client thread/DEBUG] [TaskController] Task ready: MapPlayerTask
+[12:21:09] [Client thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
+[12:21:09] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0. Memory: 2011MB total, 883MB free 
+[12:21:09] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 70.32283010628635,-4.829775402218274
+[12:21:09] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 70.32283010628635,-4.829775402218274
+[12:21:09] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[12:21:09] [Netty Local Client IO #0/INFO] [JourneymapClient] Teleport Enabled:true
+[12:21:09] [Netty Local Client IO #0/INFO] [JourneymapClient] Server Admin Enabled:true
+[12:21:10] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
+[12:21:10] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
+[12:21:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #918e86 for minecraft:blocks/leaves_jungle
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #7d7d7d for minecraft:blocks/stone
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraft.client.renderer.block.model.WeightedBakedModel.getQuads(pyrotech:rock[variant=rock_stone], null, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #939393 for minecraft:blocks/grass_top
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_oak
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #2e43f4 for minecraft:blocks/water_still
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #866043 for minecraft:blocks/dirt
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #b3b3b6 for minecraft:blocks/stone_diorite
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #6f6f6f for minecraft:blocks/vine
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraft.client.renderer.block.model.WeightedBakedModel.getQuads(pyrotech:rock[variant=rock_wood_chips], null, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #886d42 for pyrotech:blocks/wood_chips
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:igneous_stone[type=dacite], up, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #929292 for undergroundbiomes:blocks/dacite
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:pile_wood_chips[level=5], null, 0)
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Resorted to using BlockModelStates.getTexture() to use pyrotech:blocks/kiln_stone_side as color for pyrotech:stone_sawmill[facing=east,type=top]
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #717171 for pyrotech:blocks/kiln_stone_side
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:pile_wood_chips[level=4], null, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #7e7c7a for minecraft:blocks/gravel
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #665131 for minecraft:blocks/log_oak
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #77553b for minecraft:blocks/coarse_dirt
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #dcdcdc for minecraft:blocks/web
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:limestone, up, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #838577 for pyrotech:blocks/limestone
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #9a7d4d for minecraft:blocks/log_oak_top
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #c07615 for minecraft:blocks/pumpkin_top
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_big_oak
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #8d6a53 for minecraft:blocks/mushroom_block_skin_brown
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #57431a for minecraft:blocks/log_jungle
+[12:21:10] [JM-task-4/DEBUG] [StatTimer] SurfaceRenderer.renderSurface warmup done, 10
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #997162 for minecraft:blocks/stone_granite
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_stone[type=migmatite], up, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #7d7c7e for undergroundbiomes:blocks/migmatite
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_stone_pyrotech_fossil_ore[type=migmatite], up, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #8e8d8b for undergroundbiomes:blocks/migmatite,undergroundbiomes:blocks/overlays/pyrotech/fossil_ore
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #828383 for minecraft:blocks/stone_andesite
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:sedimentary_stone[type=greywacke], up, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #848479 for undergroundbiomes:blocks/greywacke
+[12:21:10] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:sedimentary_stone[type=siltstone], up, 0)
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #d6aa93 for undergroundbiomes:blocks/siltstone
+[12:21:10] [JM-task-4/DEBUG] [ColorManager] Cached color #737373 for minecraft:blocks/coal_ore
+[12:21:10] [JM-task-4/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
+[12:21:11] [Client thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
+[12:21:12] [Client thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
+[12:21:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[12:21:13] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:sedimentary_stone[type=chalk], up, 0)
+[12:21:13] [JM-task-4/DEBUG] [ColorManager] Cached color #dcd2cd for undergroundbiomes:blocks/chalk
+[12:21:13] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_sand[type=greenschist], up, 0)
+[12:21:13] [JM-task-4/DEBUG] [ColorManager] Cached color #c3c095 for undergroundbiomes:blocks/greenschist_sand
+[12:21:13] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_sandstone[type=greenschist], up, 0)
+[12:21:13] [JM-task-4/DEBUG] [ColorManager] Cached color #a0a484 for undergroundbiomes:blocks/greenschist_sandstone_top
+[12:21:13] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + J = Show / Hide MiniMap}, KeyBindingAction{J = Show / Hide Fullscreen Map}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Z = Toggle all Waypoints}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint (at cursor)}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{DOWN = Pan South (16 Blocks)}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{J = Show / Hide Fullscreen Map}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{O = Options Manager}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{UP = Pan North (16 Blocks)}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LEFT = Pan West (16 Blocks)}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{RIGHT = Pan East (16 Blocks)}]
+[12:21:14] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{C = Chat Position (at cursor)}]
+[12:21:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[12:21:16] [JM-task-4/DEBUG] [ColorManager] Cached color #caab78 for minecraft:blocks/mushroom_block_inside
+[12:21:16] [JM-task-4/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
+[12:21:16] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:fossil_ore, up, 0)
+[12:21:16] [JM-task-4/DEBUG] [ColorManager] Cached color #93928e for pyrotech:blocks/fossil_ore
+[12:21:16] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:igneous_stone_pyrotech_fossil_ore[type=dacite], up, 0)
+[12:21:16] [JM-task-4/DEBUG] [ColorManager] Cached color #9e9d9a for undergroundbiomes:blocks/dacite,undergroundbiomes:blocks/overlays/pyrotech/fossil_ore

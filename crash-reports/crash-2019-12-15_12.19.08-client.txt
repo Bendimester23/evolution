@@ -1,0 +1,209 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CreativePatchingLoader (CreativeCore_v1.9.74_mc1.12.2.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.9-1.12.2.jar)
+  midnight (themidnight-0.3.5.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  FarseekCoreMod (Farseek-1.12-2.4.jar)
+  LittlePatchingLoader (LittleTiles_v1.5.0-pre180_mc1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// This doesn't make any sense!
+
+Time: 12/15/19 12:19 PM
+Description: Tesselating block in world
+
+java.lang.NullPointerException: Tesselating block in world
+	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
+	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
+	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getCorrectModel(BakedModelTiered.java:55)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_177555_b(BakedModelTiered.java:72)
+	at net.minecraft.client.renderer.block.model.IBakedModel.isAmbientOcclusion(IBakedModel.java:29)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:43)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:38)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:200)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:100)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:43)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
+	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
+	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getCorrectModel(BakedModelTiered.java:55)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_177555_b(BakedModelTiered.java:72)
+	at net.minecraft.client.renderer.block.model.IBakedModel.isAmbientOcclusion(IBakedModel.java:29)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:43)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:38)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #15 (tile.oreIron // net.minecraft.block.BlockOre // minecraft:iron_ore)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-1327,54,-647), Chunk: (at 1,3,9 in -83,-41; contains blocks -1328,0,-656 to -1313,255,-641), Region: (-3,-2; contains chunks -96,-64 to -65,-33, blocks -1536,0,-1024 to -1025,255,-513)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Bendimester23'/429, l='MpServer', x=-1093.82, y=65.00, z=-635.17]]
+	Chunk stats: MultiplayerChunkCache: 1321, 1321
+	Level seed: 0
+	Level generator: ID 06 - OTG, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (8,63,8), Chunk: (at 8,3,8 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 30476 game time, 30476 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 78 total; [EntityItem['item.tile.sapling.oak'/642, l='MpServer', x=-1156.92, y=67.00, z=-628.84], EntityPeacockPeach['Peach Peacock'/644, l='MpServer', x=-1156.29, y=66.00, z=-639.77], EntityMinecartChest['Minecart with Chest'/903, l='MpServer', x=-1023.50, y=39.06, z=-627.50], EntitySkeleton['Skeleton'/905, l='MpServer', x=-1027.50, y=18.00, z=-613.50], EntitySkeleton['Skeleton'/906, l='MpServer', x=-1025.50, y=18.00, z=-609.50], EntityZombie['Zombie'/907, l='MpServer', x=-1020.50, y=18.00, z=-653.50], EntityCreeper['Creeper'/911, l='MpServer', x=-1023.83, y=68.00, z=-595.50], EntitySkeleton['Skeleton'/912, l='MpServer', x=-1022.50, y=18.00, z=-609.50], EntityCreeper['Creeper'/915, l='MpServer', x=-1014.50, y=40.00, z=-621.50], EntitySquid['Squid'/918, l='MpServer', x=-1030.60, y=62.00, z=-689.40], EntityZombie['Zombie'/924, l='MpServer', x=-1017.50, y=46.00, z=-670.50], EntityRabbitBuckCottontail['Cottontail Buck'/797, l='MpServer', x=-1073.51, y=120.00, z=-574.53], EntityZombie['Zombie'/925, l='MpServer', x=-1016.50, y=46.00, z=-671.50], EntityPeafowlBlue['India Blue Peahen'/671, l='MpServer', x=-1151.95, y=66.00, z=-656.46], EntitySkeleton['Skeleton'/928, l='MpServer', x=-1026.50, y=27.00, z=-640.50], EntityItem['item.tile.sapling.big_oak'/803, l='MpServer', x=-1082.88, y=122.00, z=-583.94], EntityItem['item.item.stick'/804, l='MpServer', x=-1082.19, y=122.00, z=-584.00], EntitySowOldSpot['Old Spot Sow'/805, l='MpServer', x=-1086.20, y=118.00, z=-581.03], EntityWitch['Witch'/806, l='MpServer', x=-1102.50, y=19.00, z=-572.50], EntityZombie['Zombie'/934, l='MpServer', x=-1104.50, y=60.00, z=-664.50], EntitySkeleton['Skeleton'/807, l='MpServer', x=-1102.50, y=19.00, z=-569.50], EntityZombie['Zombie'/808, l='MpServer', x=-1100.49, y=19.00, z=-573.19], EntityPeachickWhite['White Peachick'/686, l='MpServer', x=-1138.51, y=66.00, z=-653.25], EntityPeafowlWhite['White Peahen'/687, l='MpServer', x=-1150.05, y=67.00, z=-620.46], EntityItem['item.item.stick'/815, l='MpServer', x=-1090.63, y=65.00, z=-653.63], EntityItem['item.item.stick'/816, l='MpServer', x=-1091.82, y=65.00, z=-652.06], EntityBat['Bat'/689, l='MpServer', x=-1147.39, y=22.10, z=-680.17], EntityPeacockPeach['Peach Peacock'/817, l='MpServer', x=-1093.52, y=65.00, z=-664.35], EntityItem['item.tile.sapling.big_oak'/818, l='MpServer', x=-1077.08, y=82.00, z=-607.13], EntitySowLargeBlack['Large Black Sow'/819, l='MpServer', x=-1072.04, y=91.00, z=-599.13], EntityCreeper['Creeper'/820, l='MpServer', x=-1089.50, y=22.00, z=-579.50], EntityCreeper['Creeper'/821, l='MpServer', x=-1098.50, y=31.00, z=-591.50], EntityBat['Bat'/822, l='MpServer', x=-1098.25, y=32.10, z=-585.25], EntityCreeper['Creeper'/823, l='MpServer', x=-1093.50, y=32.00, z=-590.50], EntitySkeleton['Skeleton'/698, l='MpServer', x=-1145.25, y=41.00, z=-571.43], EntityCreeper['Creeper'/699, l='MpServer', x=-1139.50, y=54.00, z=-573.50], EntityPeacockPeach['Peach Peacock'/700, l='MpServer', x=-1151.88, y=71.00, z=-575.50], EntityEnderman['Enderman'/829, l='MpServer', x=-1084.48, y=11.00, z=-692.37], EntityItem['item.item.stick'/830, l='MpServer', x=-1091.97, y=66.00, z=-675.94], EntityZombie['Zombie'/705, l='MpServer', x=-1127.50, y=27.00, z=-574.50], EntityZombie['Zombie'/706, l='MpServer', x=-1129.50, y=27.00, z=-572.50], EntityCreeper['Creeper'/710, l='MpServer', x=-1123.20, y=56.00, z=-682.48], EntityPeafowlWhite['White Peahen'/711, l='MpServer', x=-1147.67, y=67.00, z=-607.79], EntitySkeleton['Skeleton'/712, l='MpServer', x=-1127.21, y=24.00, z=-621.48], EntityItem['item.item.stick'/713, l='MpServer', x=-1121.46, y=67.00, z=-610.93], EntityPeacockPeach['Peach Peacock'/714, l='MpServer', x=-1126.61, y=65.00, z=-623.33], EntityItem['item.tile.flower1.dandelion'/715, l='MpServer', x=-1129.71, y=65.00, z=-652.19], EntityItem['item.item.stick'/716, l='MpServer', x=-1130.54, y=65.00, z=-655.13], EntityPlayerSP['Bendimester23'/429, l='MpServer', x=-1093.82, y=65.00, z=-635.17], EntityItem['item.tile.sapling.big_oak'/870, l='MpServer', x=-1067.66, y=125.00, z=-587.88], EntityItem['item.item.stick'/871, l='MpServer', x=-1046.12, y=70.00, z=-607.15], EntityItem['item.item.stick'/872, l='MpServer', x=-1053.06, y=89.00, z=-595.45], EntitySowLargeBlack['Large Black Sow'/873, l='MpServer', x=-1069.93, y=91.00, z=-599.00], EntityZombie['Zombie'/746, l='MpServer', x=-1113.18, y=44.00, z=-607.52], EntityBat['Bat'/874, l='MpServer', x=-1062.92, y=19.52, z=-648.21], EntityItem['item.item.stick'/875, l='MpServer', x=-1063.40, y=66.00, z=-650.62], EntitySpider['Spider'/748, l='MpServer', x=-1116.50, y=26.00, z=-571.50], EntityBat['Bat'/876, l='MpServer', x=-1067.91, y=23.10, z=-670.27], EntitySkeleton['Skeleton'/749, l='MpServer', x=-1115.21, y=20.00, z=-564.48], EntityBat['Bat'/877, l='MpServer', x=-1062.53, y=23.00, z=-670.42], EntityCreeper['Creeper'/750, l='MpServer', x=-1103.77, y=20.00, z=-567.49], EntitySkeleton['Skeleton'/878, l='MpServer', x=-1048.29, y=13.00, z=-700.50], EntityItem['item.item.stick'/879, l='MpServer', x=-1051.28, y=64.00, z=-693.65], EntitySkeleton['Skeleton'/752, l='MpServer', x=-1104.62, y=33.00, z=-585.19], EntityBat['Bat'/880, l='MpServer', x=-1052.96, y=27.46, z=-621.25], EntityPeacockPeach['Peach Peacock'/753, l='MpServer', x=-1104.66, y=82.00, z=-583.47], EntityBat['Bat'/881, l='MpServer', x=-1049.27, y=27.01, z=-624.55], EntityEnderman['Enderman'/754, l='MpServer', x=-1111.67, y=58.00, z=-676.51], EntityBat['Bat'/882, l='MpServer', x=-1047.27, y=30.12, z=-621.83], EntityEnderman['Enderman'/755, l='MpServer', x=-1118.50, y=54.00, z=-687.37], EntitySkeleton['Skeleton'/883, l='MpServer', x=-1042.50, y=30.00, z=-655.50], EntitySpider['Spider'/756, l='MpServer', x=-1104.96, y=11.00, z=-653.52], EntityZombie['Zombie'/884, l='MpServer', x=-1045.50, y=32.00, z=-653.50], EntityCreeper['Creeper'/757, l='MpServer', x=-1115.83, y=24.00, z=-641.47], EntitySkeleton['Skeleton'/885, l='MpServer', x=-1043.50, y=30.00, z=-656.50], EntityBat['Bat'/758, l='MpServer', x=-1107.53, y=27.42, z=-644.87], EntityPeacockPeach['Peach Peacock'/759, l='MpServer', x=-1110.50, y=65.00, z=-664.69], EntitySkeleton['Skeleton'/892, l='MpServer', x=-1065.50, y=64.00, z=-707.50]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.run(SourceFile:49)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_231, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 590774104 bytes (563 MB) / 1574961152 bytes (1502 MB) up to 3008888832 bytes (2869 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3228m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 65 mods loaded, 65 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version                 | Source                                             | Signature                                |
+	|:------ |:-------------------- |:----------------------- |:-------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2                  | minecraft.jar                                      | None                                     |
+	| LCHIJA | mcp                  | 9.42                    | minecraft.jar                                      | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99               | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | forge                | 14.23.5.2847            | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | creativecoredummy    | 1.0.0                   | minecraft.jar                                      | None                                     |
+	| LCHIJA | littletilescore      | 1.0.0                   | minecraft.jar                                      | None                                     |
+	| LCHIJA | otgcore              | 1.12.2 - v8.3           | minecraft.jar                                      | None                                     |
+	| LCHIJA | foamfixcore          | 7.7.4                   | minecraft.jar                                      | None                                     |
+	| LCHIJA | craftstudioapi       | 1.0.0                   | CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar | None                                     |
+	| LCHIJA | openterraingenerator | v8.3                    | OpenTerrainGenerator-1.12.2 - v8.3.jar             | None                                     |
+	| LCHIJA | animania             | 1.7.3                   | animania-1.12.2-1.7.3.jar                          | None                                     |
+	| LCHIJA | aquaculture          | 1.6.8                   | Aquaculture-1.12.2-1.6.8.jar                       | None                                     |
+	| LCHIJA | crafttweaker         | 4.1.20                  | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | mtlib                | 3.0.6                   | MTLib-3.0.6.jar                                    | None                                     |
+	| LCHIJA | modtweaker           | 4.0.17                  | modtweaker-4.0.17.jar                              | None                                     |
+	| LCHIJA | jei                  | 4.15.0.291              | jei_1.12.2-4.15.0.291.jar                          | None                                     |
+	| LCHIJA | athenaeum            | 1.12.2-1.17.4           | athenaeum-1.12.2-1.17.4.jar                        | None                                     |
+	| LCHIJA | base                 | 3.13.0                  | base-1.12.2-3.13.0.jar                             | None                                     |
+	| LCHIJA | biomebundle          | 5.1                     | Biome_Bundle-1.12.2-v6.1.jar                       | None                                     |
+	| LCHIJA | bookshelf            | 2.3.590                 | Bookshelf-1.12.2-2.3.590.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | mantle               | 1.12-1.3.3.55           | Mantle-1.12-1.3.3.55.jar                           | None                                     |
+	| LCHIJA | tconstruct           | 1.12.2-2.12.0.157       | TConstruct-1.12.2-2.12.0.157.jar                   | None                                     |
+	| LCHIJA | ceramics             | 1.12-1.3.7              | Ceramics-1.12-1.3.7.jar                            | None                                     |
+	| LCHIJA | contenttweaker       | 1.12.2-4.9.1            | ContentTweaker-1.12.2-4.9.1.jar                    | None                                     |
+	| LCHIJA | controlling          | 3.0.7                   | Controlling-3.0.7.jar                              | None                                     |
+	| LCHIJA | ctgui                | 1.0.0                   | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | crafttweakerjei      | 2.0.3                   | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | creativecore         | 1.9.9                   | CreativeCore_v1.9.74_mc1.12.2.jar                  | None                                     |
+	| LCHIJA | cucumber             | 1.1.3                   | Cucumber-1.12.2-1.1.3.jar                          | None                                     |
+	| LCHIJA | custommainmenu       | 2.0.9                   | CustomMainMenu-MC1.12.2-2.0.9.jar                  | None                                     |
+	| LCHIJA | gamestages           | 2.0.115                 | GameStages-1.12.2-2.0.115.jar                      | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | dropt                | 1.12.2-1.16.1           | dropt-1.12.2-1.16.1.jar                            | None                                     |
+	| LCHIJA | extendedcrafting     | 1.5.6                   | ExtendedCrafting-1.12.2-1.5.6.jar                  | None                                     |
+	| LCHIJA | farseek              | 2.4                     | Farseek-1.12-2.4.jar                               | None                                     |
+	| LCHIJA | foamfix              | 0.10.9-1.12.2           | foamfix-0.10.9-1.12.2.jar                          | None                                     |
+	| LCHIJA | ftbbackups           | 1.1.0.1                 | FTBBackups-1.1.0.1.jar                             | None                                     |
+	| LCHIJA | ftblib               | 5.4.4.5                 | FTBLib-5.4.4.5.jar                                 | None                                     |
+	| LCHIJA | ftbutilities         | 5.4.0.124               | FTBUtilities-5.4.0.124.jar                         | None                                     |
+	| LCHIJA | itemfilters          | 1.0.3.12                | ItemFilters-1.0.3.12.jar                           | None                                     |
+	| LCHIJA | ftbquests            | 1.8.0.237               | FTBQuests-1.8.0.237.jar                            | None                                     |
+	| LCHIJA | gamestagebooks       | 1.12.2-1.0.2            | gamestagebooks-1.12.2-1.0.2-universal.jar          | None                                     |
+	| LCHIJA | journeymap           | 1.12.2-5.5.5            | journeymap-1.12.2-5.5.5.jar                        | None                                     |
+	| LCHIJA | littletiles          | 1.5.0                   | LittleTiles_v1.5.0-pre180_mc1.12.2.jar             | None                                     |
+	| LCHIJA | lunatriuscore        | 1.2.0.42                | LunatriusCore-1.12.2-1.2.0.42-universal.jar        | None                                     |
+	| LCHIJA | mtrm                 | 1.2.2.30                | MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar         | None                                     |
+	| LCHIJA | norecipebook         | 1.2.1                   | noRecipeBook_v1.2.2formc1.12.2.jar                 | None                                     |
+	| LCHIJA | oretweaker           | 1.0.2-1.12.0            | Ore Tweaker-1.0.2-1.12.0.jar                       | None                                     |
+	| LCHIJA | oreexcavation        | 1.4.143                 | OreExcavation-1.4.143.jar                          | None                                     |
+	| LCHIJA | orestages            | 2.0.37                  | OreStages-1.12.2-2.0.37.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | patchouli            | 1.0-20                  | Patchouli-1.0-20.jar                               | None                                     |
+	| LCHIJA | pillar               | 1.2-10                  | Pillar-1.2-10.jar                                  | None                                     |
+	| LCHIJA | theoneprobe          | 1.4.28                  | theoneprobe-1.12-1.4.28.jar                        | None                                     |
+	| LCHIJA | pyrotech             | 1.12.2-1.4.13           | pyrotech-1.12.2-1.4.13.jar                         | None                                     |
+	| LCHIJA | recipestages         | 1.1.3                   | RecipeStages-1.1.3.jar                             | None                                     |
+	| LCHIJA | resourceloader       | 1.5.3                   | ResourceLoader-MC1.12.1-1.5.3.jar                  | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | schematica           | 1.8.0.169               | Schematica-1.12.2-1.8.0.169-universal.jar          | None                                     |
+	| LCHIJA | simpleoregen         | 4.3.4                   | SimpleOreGeneration-4.3.4 mc 1.12.2.jar            | None                                     |
+	| LCHIJA | streams              | 0.4.7                   | Streams-1.12-0.4.7.jar                             | None                                     |
+	| LCHIJA | tetra                | 0.39.1                  | tetra-1.12.2-0.39.1.jar                            | None                                     |
+	| LCHIJA | undergroundbiomes    | 1.3.7                   | UndergroundBiomesConstructs-1.12-1.3.7.jar         | None                                     |
+	| LCHIJA | vanillavistas        | 1.0                     | Vanilla_Vistas 1.1.jar                             | None                                     |
+	| LCHIJA | worldstripper        | 1.6.0-1.12.2            | World-Stripper-1.6.0-1.12.2.jar                    | None                                     |
+	| LCHIJA | structurize          | 1.12.2-0.10.124-ALPHA   | structurize-1.12.2-0.10.124-ALPHA.jar              | None                                     |
+	| LCHIJA | minecolonies         | 1.12.2-0.10.488-RELEASE | minecolonies-1.12.2-0.10.488-RELEASE-universal.jar | None                                     |
+	| LCHIJA | midnight             | 0.3.5                   | themidnight-0.3.5.jar                              | None                                     |
+
+	Loaded coremods (and transformers): 
+CreativePatchingLoader (CreativeCore_v1.9.74_mc1.12.2.jar)
+  
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.9-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+midnight (themidnight-0.3.5.jar)
+  com.mushroom.midnight.core.transformer.MidnightClassTransformer
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.excluded.OTGClassTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+FarseekCoreMod (Farseek-1.12-2.4.jar)
+  farseek.core.FarseekClassTransformer
+LittlePatchingLoader (LittleTiles_v1.5.0-pre180_mc1.12.2.jar)
+  com.creativemd.littletiles.LittleTilesTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- theoneprobeIntegration (Enabled/Not Forced)
+
+	Launched Version: forge-14.23.5.2847
+	LWJGL: 2.9.4
+	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz

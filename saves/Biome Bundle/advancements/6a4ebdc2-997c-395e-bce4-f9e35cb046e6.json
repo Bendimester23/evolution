@@ -1,0 +1,298 @@
+{
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:stone_machines": {
+    "criteria": {
+      "sawmill": "2019-12-11 17:39:00 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:bellows": {
+    "criteria": {
+      "crucible": "2019-12-11 17:47:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:root": {
+    "criteria": {
+      "mod_item": "2019-12-11 17:41:23 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:iron_ingot": {
+    "criteria": {
+      "item": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2019-12-11 16:17:46 +0100",
+      "plains": "2019-12-11 16:14:37 +0100",
+      "roofed_forest": "2019-12-11 16:17:40 +0100",
+      "jungle": "2019-12-11 16:14:45 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "midnight:midnight/root": {
+    "criteria": {
+      "enter_midnight": "2019-12-11 17:35:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:mechanical_bellows": {
+    "criteria": {
+      "crucible": "2019-12-11 17:39:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "midnight:midnight/surface_biomes": {
+    "criteria": {
+      "biome2": "2019-12-11 17:37:36 +0100",
+      "biome3": "2019-12-11 17:36:43 +0100",
+      "biome0": "2019-12-11 17:42:02 +0100",
+      "biome1": "2019-12-11 17:35:53 +0100",
+      "biome8": "2019-12-11 17:42:45 +0100",
+      "biome9": "2019-12-11 17:43:00 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:mechanical_compactor": {
+    "criteria": {
+      "crucible": "2019-12-11 17:39:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:flint_and_tinder": {
+    "criteria": {
+      "campfire": "2019-12-11 17:49:48 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2019-12-11 17:35:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  }
+}
