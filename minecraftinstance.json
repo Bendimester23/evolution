@@ -90,21 +90,6 @@
       "fileSize": 8923896
     },
     {
-      "folderName": "pyrotech-1.12.2-1.4.13.jar",
-      "fingerprint": 3554883295,
-      "fileDateHash": 626830787,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3554883295
-      ],
-      "status": 1,
-      "timestamp": "2019-12-15T11:21:24.804299Z",
-      "lastWriteTimeUtc": "2019-12-10T15:28:16.2614588Z",
-      "queryTimestamp": "2019-12-15T11:21:46.8067559Z",
-      "fileCount": 1,
-      "fileSize": 3640502
-    },
-    {
       "folderName": "BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar.disabled",
       "fingerprint": 2361565332,
       "fileDateHash": 442483200,
@@ -696,21 +681,6 @@
       "fileSize": 50296
     },
     {
-      "folderName": "minecolonies-1.12.2-0.10.488-RELEASE-universal.jar",
-      "fingerprint": 3680319616,
-      "fileDateHash": 4079064934,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3680319616
-      ],
-      "status": 1,
-      "timestamp": "2019-12-15T11:21:23.8793511Z",
-      "lastWriteTimeUtc": "2019-12-12T18:22:38.6422598Z",
-      "queryTimestamp": "2019-12-15T11:21:46.8097484Z",
-      "fileCount": 1,
-      "fileSize": 34468495
-    },
-    {
       "folderName": "MTLib-3.0.6.jar",
       "fingerprint": 396445966,
       "fileDateHash": 1443839923,
@@ -1167,21 +1137,6 @@
       "fileSize": 1363036
     },
     {
-      "folderName": "MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar",
-      "fingerprint": 2660857366,
-      "fileDateHash": 1714066770,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2660857366
-      ],
-      "status": 1,
-      "timestamp": "2019-12-15T11:21:24.6974976Z",
-      "lastWriteTimeUtc": "2019-12-10T15:46:59.5022783Z",
-      "queryTimestamp": "2019-12-15T11:21:46.8137372Z",
-      "fileCount": 1,
-      "fileSize": 33240
-    },
-    {
       "folderName": "FTBBackups-1.1.0.1.jar",
       "fingerprint": 752442057,
       "fileDateHash": 2238170801,
@@ -1295,27 +1250,27 @@
       "addonID": 245506,
       "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
       "installedFile": {
-        "id": 2818963,
-        "displayName": "minecolonies-1.12.2-0.10.488-RELEASE-universal.jar",
-        "fileName": "minecolonies-1.12.2-0.10.488-RELEASE-universal.jar",
-        "fileDate": "2019-10-30T15:06:32.05Z",
-        "fileLength": 34468495,
+        "id": 2842477,
+        "displayName": "minecolonies-1.12.2-0.10.592-RELEASE-universal.jar",
+        "fileName": "minecolonies-1.12.2-0.10.592-RELEASE-universal.jar",
+        "fileDate": "2019-12-14T10:37:01.067Z",
+        "fileLength": 34702171,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2818/963/minecolonies-1.12.2-0.10.488-RELEASE-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2842/477/minecolonies-1.12.2-0.10.592-RELEASE-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2818964,
+        "alternateFileId": 2842478,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3514378957,
+            "fingerprint": 3723083368,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 587446982,
+            "fingerprint": 3058801663,
             "type": 0
           },
           {
@@ -1325,16 +1280,16 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2772448432,
+            "fingerprint": 2081364969,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2942078198,
+            "fingerprint": 1564345376,
             "type": 0
           }
         ],
-        "packageFingerprint": 3680319616,
+        "packageFingerprint": 2620969991,
         "gameVersion": [
           "1.12.2"
         ],
@@ -1347,12 +1302,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-1.12.2-0.10.488-RELEASE-universal.jar"
+        "FileNameOnDisk": "minecolonies-1.12.2-0.10.592-RELEASE-universal.jar"
       },
       "dateInstalled": "2019-12-12T18:22:38.6984506Z",
-      "dateUpdated": "2019-12-12T18:22:38.7542997Z",
-      "dateLastUpdateAttempted": "2019-12-12T18:22:38.7542997Z",
-      "status": 3,
+      "dateUpdated": "2019-12-16T18:13:02.5033693Z",
+      "dateLastUpdateAttempted": "2019-12-16T18:13:02.5033693Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2204,6 +2159,73 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 324444,
+      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
+      "installedFile": {
+        "id": 2725242,
+        "displayName": "CrashToMainMenu-client-1.12.2-1.0.0.jar",
+        "fileName": "CrashToMainMenu-client-1.12.2-1.0.0.jar",
+        "fileDate": "2019-06-16T02:36:58.993Z",
+        "fileLength": 23276,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2725/242/CrashToMainMenu-client-1.12.2-1.0.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "com",
+            "fingerprint": 3823068206,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3024360221,
+            "type": 0
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2166478822,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2258992781,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "CrashToMainMenu-client-1.12.2-1.0.0.jar"
+      },
+      "dateInstalled": "2019-12-16T18:02:29.7340477Z",
+      "dateUpdated": "2019-12-16T18:02:29.7370294Z",
+      "dateLastUpdateAttempted": "2019-12-16T18:02:29.7370294Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 250603,
@@ -3260,17 +3282,23 @@
       "addonID": 306676,
       "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
       "installedFile": {
-        "id": 2830618,
-        "displayName": "pyrotech-1.12.2-1.4.13.jar",
-        "fileName": "pyrotech-1.12.2-1.4.13.jar",
-        "fileDate": "2019-11-22T01:36:33.903Z",
-        "fileLength": 3640502,
+        "id": 2843517,
+        "displayName": "pyrotech-1.12.2-1.4.16.jar",
+        "fileName": "pyrotech-1.12.2-1.4.16.jar",
+        "fileDate": "2019-12-15T23:07:44.133Z",
+        "fileLength": 3640572,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2830/618/pyrotech-1.12.2-1.4.13.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2843/517/pyrotech-1.12.2-1.4.16.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
+          {
+            "id": 0,
+            "addonId": 284350,
+            "type": 3,
+            "fileId": 0
+          },
           {
             "id": 0,
             "addonId": 253449,
@@ -3291,13 +3319,13 @@
           },
           {
             "id": 0,
-            "addonId": 306770,
+            "addonId": 284973,
             "type": 3,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 284973,
+            "addonId": 306770,
             "type": 3,
             "fileId": 0
           },
@@ -3306,34 +3334,28 @@
             "addonId": 239197,
             "type": 2,
             "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 284350,
-            "type": 3,
-            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2840246571,
+            "fingerprint": 790341914,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 2703261531,
+            "fingerprint": 315212747,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3033129137,
+            "fingerprint": 2208002922,
             "type": 0
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2793991897,
+            "fingerprint": 3436626576,
             "type": 0
           },
           {
@@ -3342,7 +3364,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3554883295,
+        "packageFingerprint": 3698392987,
         "gameVersion": [
           "Forge",
           "1.12.2"
@@ -3356,12 +3378,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "pyrotech-1.12.2-1.4.13.jar"
+        "FileNameOnDisk": "pyrotech-1.12.2-1.4.16.jar"
       },
       "dateInstalled": "2019-12-10T15:28:16.2704332Z",
-      "dateUpdated": "2019-12-10T15:28:16.2744239Z",
-      "dateLastUpdateAttempted": "2019-12-10T15:28:16.2744239Z",
-      "status": 3,
+      "dateUpdated": "2019-12-16T18:13:09.4318345Z",
+      "dateLastUpdateAttempted": "2019-12-16T18:13:09.4318345Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4650,73 +4672,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 226294,
-      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
-      "installedFile": {
-        "id": 2497436,
-        "displayName": "MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar",
-        "fileName": "MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar",
-        "fileDate": "2017-11-05T10:22:33.247Z",
-        "fileLength": 33240,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2497/436/MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 307671051,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4073972111,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 994252901,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2660857366,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "MineTweakerRecipeMaker-1.12.2-1.2.2.30.jar"
-      },
-      "dateInstalled": "2019-12-10T15:46:59.6319657Z",
-      "dateUpdated": "2019-12-10T15:46:59.7217188Z",
-      "dateLastUpdateAttempted": "2019-12-10T15:46:59.7217188Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 220954,
       "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
       "installedFile": {
@@ -5251,14 +5206,14 @@
       "addonID": 257814,
       "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
       "installedFile": {
-        "id": 2831308,
-        "displayName": "CreativeCore_v1.9.74_mc1.12.2.jar",
-        "fileName": "CreativeCore_v1.9.74_mc1.12.2.jar",
-        "fileDate": "2019-11-23T13:16:38.86Z",
-        "fileLength": 942763,
+        "id": 2843376,
+        "displayName": "CreativeCore_v1.9.78_mc1.12.2.jar",
+        "fileName": "CreativeCore_v1.9.78_mc1.12.2.jar",
+        "fileDate": "2019-12-15T19:03:29.95Z",
+        "fileLength": 954478,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2831/308/CreativeCore_v1.9.74_mc1.12.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2843/376/CreativeCore_v1.9.78_mc1.12.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -5276,7 +5231,7 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 3510232818,
+            "fingerprint": 4247128187,
             "type": 0
           },
           {
@@ -5285,7 +5240,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2625117652,
+        "packageFingerprint": 3416302550,
         "gameVersion": [
           "1.12.2"
         ],
@@ -5298,12 +5253,12 @@
         "gameVersionDateReleased": "2017-09-18T05:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CreativeCore_v1.9.74_mc1.12.2.jar"
+        "FileNameOnDisk": "CreativeCore_v1.9.78_mc1.12.2.jar"
       },
       "dateInstalled": "2019-12-12T18:25:41.1252965Z",
-      "dateUpdated": "2019-12-12T18:25:41.1306575Z",
-      "dateLastUpdateAttempted": "2019-12-12T18:25:41.1306575Z",
-      "status": 3,
+      "dateUpdated": "2019-12-16T18:13:14.6406999Z",
+      "dateLastUpdateAttempted": "2019-12-16T18:13:14.6406999Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
