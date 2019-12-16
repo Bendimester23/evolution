@@ -10,18 +10,14 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
-    "minecraft:log2:0": "minecraft:planks:4",
-    "minecraft:log2:1": "minecraft:planks:5",
-    "minecraft:log:0": "minecraft:planks:0",
-    "minecraft:log:1": "minecraft:planks:1",
-    "minecraft:log:2": "minecraft:planks:2",
-    "minecraft:log:3": "minecraft:planks:3",
     "minecraft:planks:0": "minecraft:wooden_slab:0",
     "minecraft:planks:1": "minecraft:wooden_slab:1",
     "minecraft:planks:2": "minecraft:wooden_slab:2",
     "minecraft:planks:3": "minecraft:wooden_slab:3",
     "minecraft:planks:4": "minecraft:wooden_slab:4",
     "minecraft:planks:5": "minecraft:wooden_slab:5",
+    "rustic:planks:0": "rustic:olive_slab_item:0",
+    "rustic:planks:1": "rustic:ironwood_slab_item:0",
     "structurize:blockcactusplank:0": "structurize:blockcactusslab_half:0"
   }
 }

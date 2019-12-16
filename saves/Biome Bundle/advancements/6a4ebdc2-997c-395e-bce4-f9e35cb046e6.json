@@ -5,6 +5,12 @@
     },
     "done": false
   },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2019-12-16 19:37:36 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2019-12-11 16:19:17 +0100"
@@ -80,6 +86,12 @@
     },
     "done": true
   },
+  "pyrotech:stone": {
+    "criteria": {
+      "stone": "2019-12-16 19:53:58 +0100"
+    },
+    "done": true
+  },
   "midnight:midnight/surface_biomes": {
     "criteria": {
       "biome2": "2019-12-11 17:37:36 +0100",
@@ -90,6 +102,12 @@
       "biome9": "2019-12-11 17:43:00 +0100"
     },
     "done": false
+  },
+  "minecolonies:minecolonies/create_build_request_1_builder": {
+    "criteria": {
+      "builder_request": "2019-12-16 19:40:09 +0100"
+    },
+    "done": true
   },
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
@@ -127,9 +145,27 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2019-12-16 19:37:36 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2019-12-16 19:53:58 +0100"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sign": {
     "criteria": {
       "has_planks": "2019-12-11 17:50:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2019-12-16 19:40:53 +0100"
     },
     "done": true
   },
@@ -187,6 +223,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2019-12-16 19:37:36 +0100"
+    },
+    "done": false
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2019-12-11 16:19:17 +0100"
@@ -214,6 +256,12 @@
   "pyrotech:iron_ingot": {
     "criteria": {
       "item": "2019-12-11 16:19:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2019-12-16 19:53:58 +0100"
     },
     "done": true
   },
