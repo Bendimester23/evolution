@@ -16,10 +16,12 @@
         "pyrotech:innovate/storage_durable",
         "pyrotech:innovate/mechanical_hopper",
         "pyrotech:innovate/stone_sawmill",
-        "pyrotech:accelerate/bellows"
+        "pyrotech:accelerate/bellows",
+        "pyrotech:adapt/stone"
       ],
       "bookmarks": [],
       "history": [
+        "pyrotech:adapt/stone",
         "pyrotech:accelerate/bellows",
         "pyrotech:innovate/stone_sawmill",
         "pyrotech:innovate/mechanical_hopper",
@@ -31,8 +33,7 @@
         "pyrotech:innovate/bow_drill",
         "pyrotech:appendix/ignition",
         "pyrotech:survive/campfire",
-        "pyrotech:survive/introduction",
-        "pyrotech:survive/rocks"
+        "pyrotech:survive/introduction"
       ],
       "completedManualQuests": []
     }
