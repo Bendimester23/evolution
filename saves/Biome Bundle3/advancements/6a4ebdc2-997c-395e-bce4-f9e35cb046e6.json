@@ -1,0 +1,49 @@
+{
+  "pyrotech:root": {
+    "criteria": {
+      "mod_item": "2019-12-17 20:50:13 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2019-12-17 20:55:07 +0100"
+    },
+    "done": true
+  },
+  "tetra:spelunking/root": {
+    "criteria": {
+      "spelunking": "2019-12-17 20:48:27 +0100"
+    },
+    "done": true
+  },
+  "pyrotech:stone": {
+    "criteria": {
+      "stone": "2019-12-17 20:55:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2019-12-17 20:55:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2019-12-17 20:55:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2019-12-17 20:41:56 +0100",
+      "birch_forest": "2019-12-17 20:52:04 +0100",
+      "ocean": "2019-12-17 20:47:09 +0100",
+      "extreme_hills": "2019-12-17 20:51:34 +0100",
+      "desert": "2019-12-17 20:51:58 +0100",
+      "stone_beach": "2019-12-17 20:48:31 +0100"
+    },
+    "done": false
+  }
+}

@@ -121,7 +121,7 @@ key_key.rotateright:205
 key_key.rotateleft:203
 key_key.little.flip:34
 key_key.little.mark:50
-key_key.little.config.item:46
+key_key.little.config.item:71
 key_key.little.undo:44:CONTROL
 key_key.little.redo:21:CONTROL
 key_key.toggleLiquids:38

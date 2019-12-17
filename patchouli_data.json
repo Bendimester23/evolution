@@ -36,6 +36,22 @@
         "pyrotech:survive/introduction"
       ],
       "completedManualQuests": []
+    },
+    "midnight:eternal_night": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "history": [],
+      "completedManualQuests": []
+    },
+    "patchouli:history": {
+      "viewedEntries": [
+        "patchouli:test_entry"
+      ],
+      "bookmarks": [],
+      "history": [
+        "patchouli:test_entry"
+      ],
+      "completedManualQuests": []
     }
   }
 }
