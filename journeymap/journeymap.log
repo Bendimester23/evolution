@@ -1,7 +1,7 @@
-[19:53:02] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
-[19:53:02] [Client thread/INFO] [JourneymapClient] initialize ENTER
-[19:53:02] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[19:53:02] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
+[19:59:35] [Client thread/INFO] [JMLogger] JourneyMap log initialized.
+[19:59:35] [Client thread/INFO] [JourneymapClient] initialize ENTER
+[19:59:35] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[19:59:35] [Client thread/INFO] [?] Version: JourneyMap 1.12.2-5.5.5, built with Forge 14.23.5.2768
 Forge: 14.23.5.2847
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -18,154 +18,159 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.5
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.5.5, createDeathpoints=true, showName=true, maxDistance=0, autoHideLabel=true, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, minDistance=4, boldLabel=false, textureSmall=true, showDistance=true, showRotatingBeam=true, fontScale=2, showTexture=true, managerEnabled=true, beaconEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.5.5, zoomLevel=0, showWaypoints=true, showCaves=true, showSelf=true, port=8080, showGrid=true, showEntityNames=true, enabled=false, googleMapApiDomain=.com, preferredMapType=day}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, renderOverlayEventTypeName=ALL, mapBlendWater=false, renderDistanceSurfaceMax=7, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=Circle, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, browserPoll=2000, mapBlendFoliage=true, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, maxAnimalsData=32, mapTransparency=true, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=3, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.5.5, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, renderOverlayPreEvent=true, autoMapPoll=2000}
-[19:53:02] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
-[19:53:02] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[19:53:02] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
-[19:53:02] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
-[19:53:02] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
-[19:53:05] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
-[19:53:05] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
-[19:53:05] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
-[19:53:05] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
-[19:53:05] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 72
-[19:53:05] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r678.28§8ms§r
-[19:53:38] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for streams
-[19:53:39] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
-[19:53:39] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
-[19:53:39] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 0.0,0.0
-[19:53:39] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[19:53:40] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
-[19:53:40] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
-[19:53:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\waypoints
-[19:53:40] [Client thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
-[19:53:40] [Client thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
-[19:53:40] [Client thread/DEBUG] [TaskController] Task ready: MapPlayerTask
-[19:53:40] [Client thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
-[19:53:40] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0. Memory: 1997MB total, 1011MB free 
-[19:53:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 61.47117174214782,-31.87872254755257
-[19:53:40] [Netty Local Client IO #0/INFO] [JourneymapClient] Teleport Enabled:true
-[19:53:40] [Netty Local Client IO #0/INFO] [JourneymapClient] Server Admin Enabled:true
-[19:53:40] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
-[19:53:40] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
-[19:53:40] [Client thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
-[19:53:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #939393 for minecraft:blocks/grass_top
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=north,variant=straight], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #a09179 for minecraft:blocks/door_iron_lower,minecraft:blocks/planks_oak
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_big_oak
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #866043 for minecraft:blocks/dirt
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_oak
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=east,variant=straight], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #918e86 for minecraft:blocks/leaves_jungle
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraft.client.renderer.block.model.WeightedBakedModel.getQuads(pyrotech:rock[variant=rock_stone], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #7d7d7d for minecraft:blocks/stone
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #6f6f6f for minecraft:blocks/vine
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #8d6a53 for minecraft:blocks/mushroom_block_skin_brown
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #9a7d4d for minecraft:blocks/log_oak_top
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:sedimentary_stone[type=greywacke], up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #848479 for undergroundbiomes:blocks/greywacke
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=west,variant=straight], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #2e43f4 for minecraft:blocks/water_still
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:igneous_stone[type=dacite], up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #929292 for undergroundbiomes:blocks/dacite
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #7e7c7a for minecraft:blocks/gravel
-[19:53:40] [JM-task-4/DEBUG] [StatTimer] SurfaceRenderer.renderSurface warmup done, 10
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #c07615 for minecraft:blocks/pumpkin_top
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #dcdcdc for minecraft:blocks/web
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #b3b3b6 for minecraft:blocks/stone_diorite
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraft.client.renderer.block.model.WeightedBakedModel.getQuads(pyrotech:rock[variant=rock_wood_chips], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #886d42 for pyrotech:blocks/wood_chips
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockhuttownhall[facing=north], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #775f41 for minecolonies:blocks/blockhuttownhallbook,minecolonies:blocks/blockhuttownhallbottom,minecolonies:blocks/blockhuttownhallfrontback,minecolonies:blocks/blockhuttownhallside,minecolonies:blocks/blockhuttownhalltop
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #665131 for minecraft:blocks/log_oak
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #77553b for minecraft:blocks/coarse_dirt
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:limestone, up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #838577 for pyrotech:blocks/limestone
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=south,variant=straight], null, 0)
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_sand[type=greenschist], up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #c3c095 for undergroundbiomes:blocks/greenschist_sand
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #828383 for minecraft:blocks/stone_andesite
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_sandstone[type=greenschist], up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #a0a484 for undergroundbiomes:blocks/greenschist_sandstone_top
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_stone[type=migmatite], up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #7d7c7e for undergroundbiomes:blocks/migmatite
-[19:53:40] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:sedimentary_stone[type=chalk], up, 0)
-[19:53:40] [JM-task-4/DEBUG] [ColorManager] Cached color #dcd2cd for undergroundbiomes:blocks/chalk
-[19:53:41] [JM-task-4/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
-[19:53:41] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
-[19:53:41] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + J = Show / Hide MiniMap}, KeyBindingAction{J = Show / Hide Fullscreen Map}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Z = Toggle all Waypoints}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint (at cursor)}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{DOWN = Pan South (16 Blocks)}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{J = Show / Hide Fullscreen Map}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{O = Options Manager}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{UP = Pan North (16 Blocks)}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LEFT = Pan West (16 Blocks)}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{RIGHT = Pan East (16 Blocks)}]
-[19:53:42] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{C = Chat Position (at cursor)}]
-[19:53:42] [Client thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
-[19:53:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:43] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
-[19:53:43] [JM-task-4/DEBUG] [ColorManager] Cached color #57431a for minecraft:blocks/log_jungle
-[19:53:43] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:metamorphic_stone_pyrotech_fossil_ore[type=migmatite], up, 0)
-[19:53:43] [JM-task-4/DEBUG] [ColorManager] Cached color #8e8d8b for undergroundbiomes:blocks/migmatite,undergroundbiomes:blocks/overlays/pyrotech/fossil_ore
-[19:53:43] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:sedimentary_stone[type=siltstone], up, 0)
-[19:53:43] [JM-task-4/DEBUG] [ColorManager] Cached color #d6aa93 for undergroundbiomes:blocks/siltstone
-[19:53:43] [JM-task-4/DEBUG] [ColorManager] Cached color #997162 for minecraft:blocks/stone_granite
-[19:53:43] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:igneous_gravel[type=dacite], up, 0)
-[19:53:43] [JM-task-4/DEBUG] [ColorManager] Cached color #858381 for undergroundbiomes:blocks/dacite_gravel
-[19:53:43] [JM-task-4/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
-[19:53:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:46] [JM-task-4/DEBUG] [ColorManager] Cached color #737373 for minecraft:blocks/coal_ore
-[19:53:46] [JM-task-4/DEBUG] [ColorManager] Cached color #caab78 for minecraft:blocks/mushroom_block_inside
-[19:53:46] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:fossil_ore, up, 0)
-[19:53:46] [JM-task-4/DEBUG] [ColorManager] Cached color #93928e for pyrotech:blocks/fossil_ore
-[19:53:49] [JM-task-4/DEBUG] [StatTimer] MapPlayerTask.performTask warmup done, 5
-[19:53:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:49] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(undergroundbiomes:igneous_stone_pyrotech_fossil_ore[type=dacite], up, 0)
-[19:53:49] [JM-task-4/DEBUG] [ColorManager] Cached color #9e9d9a for undergroundbiomes:blocks/dacite,undergroundbiomes:blocks/overlays/pyrotech/fossil_ore
-[19:53:50] [JM-task-4/ERROR] [VanillaBlockSpriteProxy] Error during [Solid] class net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getQuads(minecraft:iron_ore, up, 0): java.lang.NullPointerException
+[19:59:35] [Client thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.4
+[19:59:35] [Client thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[19:59:35] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.feed_the_beast.ftbutilities.integration.JourneyMapIntegration
+[19:59:35] [Client thread/INFO] [PluginHelper] Initialized IClientPlugin: com.teamacronymcoders.base.modules.journeymap.JourneyMapPlugin
+[19:59:35] [Client thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 0 avg ?ms
+[19:59:38] [Client thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.KeyEventHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.ChatEventHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.StateTickHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WorldEventHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.WaypointBeaconHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.TextureAtlasHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.MiniMapOverlayHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.forge.event.PlayerConnectHandler
+[19:59:39] [Client thread/DEBUG] [EventHandlerManager] Handler registered: journeymap.client.world.ChunkMonitor
+[19:59:39] [Client thread/INFO] [IconSetFileHandler] Added entity icons from journeymap:icon/entity. Success: false
+[19:59:39] [Client thread/TRACE] [ThemeLoader] Initializing themes ...
+[19:59:39] [Client thread/INFO] [ThemeLoader] Preloaded theme textures: 72
+[19:59:39] [Client thread/DEBUG] [JourneymapClient] postInitialize EXIT, elapsed§8 count §r1§8 avg §r867.15§8ms§r
+[20:00:33] [Client thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
+[20:00:33] [Client thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for streams
+[20:00:34] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture warmup done, 5
+[20:00:34] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 81.8505
+[20:00:34] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateScaledTexture warmup done, 5
+[20:00:34] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 57.8733
+[20:00:34] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 0.0,0.0
+[20:00:34] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 537.0313955057993,104.3611430166793
+[20:00:34] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 537.0313955057993,104.3611430166793
+[20:00:34] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 537.0313955057993,104.3611430166793
+[20:00:34] [Client thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\waypoints
+[20:00:34] [Client thread/DEBUG] [TaskController] Task not initially enabled: MapRegionTask
+[20:00:34] [Client thread/DEBUG] [TaskController] Task not initially enabled: SaveMapTask
+[20:00:34] [Client thread/DEBUG] [TaskController] Task ready: MapPlayerTask
+[20:00:34] [Client thread/DEBUG] [TaskController] Task ready: InitColorManagerTask
+[20:00:34] [Client thread/INFO] [JourneymapClient] Mapping started in C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0. Memory: 1862MB total, 765MB free 
+[20:00:34] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 537.0313955057993,104.3611430166793
+[20:00:34] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-2 (zoom 0) ] with pixel offsets of 537.0313955057993,104.3611430166793
+[20:00:34] [Client thread/INFO] [ChatLog] JourneyMap: Press [J]
+[20:00:34] [Netty Local Client IO #0/INFO] [JourneymapClient] Teleport Enabled:true
+[20:00:34] [Netty Local Client IO #0/INFO] [JourneymapClient] Server Admin Enabled:true
+[20:00:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_oak
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #939393 for minecraft:blocks/grass_top
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #918e86 for minecraft:blocks/leaves_jungle
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #c07615 for minecraft:blocks/pumpkin_top
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #9a7d4d for minecraft:blocks/log_oak_top
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #878787 for minecraft:blocks/leaves_big_oak
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #2e43f4 for minecraft:blocks/water_still
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #866043 for minecraft:blocks/dirt
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #dcdcdc for minecraft:blocks/web
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #7d7d7d for minecraft:blocks/stone
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #6f6f6f for minecraft:blocks/vine
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraft.client.renderer.block.model.WeightedBakedModel.getQuads(pyrotech:rock[variant=rock_stone], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #665131 for minecraft:blocks/log_oak
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #77553b for minecraft:blocks/coarse_dirt
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:limestone, up, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #838577 for pyrotech:blocks/limestone
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #535353 for minecraft:blocks/bedrock
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #d8681a for minecraft:blocks/lava_still
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=east,variant=straight], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #a09179 for minecraft:blocks/door_iron_lower,minecraft:blocks/planks_oak
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #7e7c7a for minecraft:blocks/gravel
+[20:00:36] [JM-task-4/DEBUG] [StatTimer] ImageHolder.partialImageUpdate warmup done, 5
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #b3b3b6 for minecraft:blocks/stone_diorite
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraft.client.renderer.block.model.WeightedBakedModel.getQuads(pyrotech:rock[variant=rock_wood_chips], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #886d42 for pyrotech:blocks/wood_chips
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockhuttownhall[facing=north], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #775f41 for minecolonies:blocks/blockhuttownhallbook,minecolonies:blocks/blockhuttownhallbottom,minecolonies:blocks/blockhuttownhallfrontback,minecolonies:blocks/blockhuttownhallside,minecolonies:blocks/blockhuttownhalltop
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=north,variant=straight], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [StatTimer] SurfaceRenderer.renderSurface warmup done, 10
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #8d6a53 for minecraft:blocks/mushroom_block_skin_brown
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #828383 for minecraft:blocks/stone_andesite
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=south,variant=straight], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #57431a for minecraft:blocks/log_jungle
+[20:00:36] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(minecolonies:blockconstructiontape[facing=west,variant=straight], null, 0)
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #997162 for minecraft:blocks/stone_granite
+[20:00:36] [JM-task-4/DEBUG] [ColorManager] Cached color #737373 for minecraft:blocks/coal_ore
+[20:00:36] [JM-task-4/DEBUG] [StatTimer] TopoRenderer.renderSurface warmup done, 10
+[20:00:36] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(1) warmup done, 5
+[20:00:36] [Client thread/DEBUG] [StatTimer] GridRenderer.updateTiles(2) warmup done, 5
+[20:00:37] [Client thread/DEBUG] [StatTimer] TileDrawStep.draw(low) warmup done, 10
+[20:00:38] [Client thread/DEBUG] [StatTimer] TaskController.performMultithreadTasks warmup done, 1
+[20:00:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:44] [JM-task-4/DEBUG] [StatTimer] MapPlayerTask.performTask warmup done, 5
+[20:00:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:50] [Client thread/DEBUG] [StatTimer] Tick.MappingMonitorTask warmup done, 10
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + J = Show / Hide MiniMap}, KeyBindingAction{J = Show / Hide Fullscreen Map}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{BACKSLASH = Switch MiniMap Preset}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{Z = Toggle all Waypoints}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{CTRL + B = Waypoint Manager}, KeyBindingAction{B = Create Waypoint (at cursor)}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{DOWN = Pan South (16 Blocks)}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{J = Show / Hide Fullscreen Map}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{O = Options Manager}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{UP = Pan North (16 Blocks)}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LBRACKET = Change Map Type}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{LEFT = Pan West (16 Blocks)}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{MINUS = Zoom Out}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{EQUALS = Zoom In}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{RIGHT = Pan East (16 Blocks)}]
+[20:00:52] [Client thread/DEBUG] [KeyEventHandler] [KeyBindingAction{C = Chat Position (at cursor)}]
+[20:00:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:52] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Solid] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:fossil_ore, up, 0)
+[20:00:52] [JM-task-4/DEBUG] [ColorManager] Cached color #93928e for pyrotech:blocks/fossil_ore
+[20:00:52] [Client thread/DEBUG] [StatTimer] MapState.refresh warmup done, 10
+[20:00:53] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle warmup done, 100
+[20:00:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:00:55] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 97.9027
+[20:00:55] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle+refreshState warmup done, 5
+[20:00:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:01] [JM-task-4/DEBUG] [StatTimer] CaveRenderer.render warmup done, 10
+[20:01:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:08] [Client thread/DEBUG] [StatTimer] MapPlayerTask.Manager.getTask warmup done, 10
+[20:01:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:10] [Client thread/DEBUG] [StatTimer] MapState.generateDrawSteps warmup done, 10
+[20:01:10] [Client thread/DEBUG] [StatTimer] EntityHelper.getPlayersNearby warmup done, 10
+[20:01:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:18] [Client thread/DEBUG] [StatTimer] EntityHelper.getVillagersNearby warmup done, 10
+[20:01:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:33] [JM-task-4/DEBUG] [ColorManager] Cached color #caab78 for minecraft:blocks/mushroom_block_inside
+[20:01:33] [JM-task-4/ERROR] [VanillaBlockSpriteProxy] Error during [Solid] class net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getQuads(minecraft:iron_ore, up, 0): java.lang.NullPointerException
 	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
 	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
 	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
 	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getCorrectModel(BakedModelTiered.java:55)
 	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_188616_a(BakedModelTiered.java:66)
 	at journeymap.client.mod.vanilla.VanillaBlockSpriteProxy.getSprites(VanillaBlockSpriteProxy.java:139)
-[19:53:50] [JM-task-4/ERROR] [VanillaBlockSpriteProxy] Error during [Solid] class net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getQuads(minecraft:iron_ore, null, 0): java.lang.NullPointerException
+[20:01:33] [JM-task-4/ERROR] [VanillaBlockSpriteProxy] Error during [Solid] class net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getQuads(minecraft:iron_ore, null, 0): java.lang.NullPointerException
 	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
 	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
 	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
 	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getCorrectModel(BakedModelTiered.java:55)
 	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_188616_a(BakedModelTiered.java:66)
 	at journeymap.client.mod.vanilla.VanillaBlockSpriteProxy.getSprites(VanillaBlockSpriteProxy.java:139)
-[19:53:50] [JM-task-4/ERROR] [VanillaBlockSpriteProxy] Unexpected error during getSprites(): java.lang.NullPointerException
+[20:01:33] [JM-task-4/ERROR] [VanillaBlockSpriteProxy] Unexpected error during getSprites(): java.lang.NullPointerException
 	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
 	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
 	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
@@ -173,62 +178,454 @@ CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.5.5, ve
 	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_177554_e(BakedModelTiered.java:90)
 	at net.minecraft.client.renderer.BlockModelShapes.func_178122_a(BlockModelShapes.java:204)
 	at journeymap.client.mod.vanilla.VanillaBlockSpriteProxy.getSprites(VanillaBlockSpriteProxy.java:96)
-[19:53:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:53:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:01] [Client thread/DEBUG] [StatTimer] MapState.refresh warmup done, 10
-[19:54:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:03] [Client thread/DEBUG] [StatTimer] MiniMap1.Circle+refreshState warmup done, 5
-[19:54:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:06] [Client thread/DEBUG] [StatTimer] MapPlayerTask.Manager.getTask warmup done, 10
-[19:54:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:22] [Client thread/DEBUG] [StatTimer] MapState.generateDrawSteps warmup done, 10
-[19:54:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:25] [Client thread/DEBUG] [StatTimer] EntityHelper.getPlayersNearby warmup done, 10
-[19:54:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:34] [Client thread/DEBUG] [StatTimer] EntityHelper.getVillagersNearby warmup done, 10
-[19:54:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:40] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-1.png
-[19:54:40] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 100.1511
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-4,-1.png
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-4,-2.png
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
-[19:54:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
-[19:54:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:43] [Client thread/DEBUG] [StatTimer] EntityHelper.getAnimalsNearby warmup done, 10
-[19:54:43] [Client thread/DEBUG] [StatTimer] EntityHelper.getMobsNearby warmup done, 10
-[19:54:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:54:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
-[19:55:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:36] [JM-task-4/DEBUG] [ColorManager] Cached color #9c7f4e for minecraft:blocks/planks_oak
+[20:01:36] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-1.png
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\3\-2,-1.png
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-4,-1.png
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-4,-2.png
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\3\-3,-2.png
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
+[20:01:36] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
+[20:01:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:44] [Client thread/DEBUG] [StatTimer] EntityHelper.getMobsNearby warmup done, 10
+[20:01:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:50] [Client thread/DEBUG] [StatTimer] EntityHelper.getAnimalsNearby warmup done, 10
+[20:01:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:01:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:37] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:02:37] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:02:37] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 68.0847
+[20:02:37] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:02:37] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
+[20:02:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:02:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:39] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:03:39] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-2.png
+[20:03:39] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:03:39] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:03:39] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-3,-1.png
+[20:03:39] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-3,-1.png
+[20:03:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:03:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:40] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:04:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:04:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
+[20:04:40] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:04:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:04:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:03] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class net.minecraftforge.client.model.PerspectiveMapWrapper.getQuads(pyrotech:campfire[ash=0,variant=normal], null, 0)
+[20:05:03] [JM-task-4/DEBUG] [ColorManager] Cached color #614a1d for pyrotech:blocks/tinder
+[20:05:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:38] [JM-task-4/DEBUG] [VanillaBlockSpriteProxy] Success during [Mipped Cutout] class net.minecraftforge.client.model.MultiModel$Baked.getQuads(pyrotech:campfire[ash=0,variant=lit], null, 0)
+[20:05:38] [JM-task-4/DEBUG] [ColorManager] Cached color #884a1b for minecraft:blocks/fire_layer_1,pyrotech:blocks/active_pile
+[20:05:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:41] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:05:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:05:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:41] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:06:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:06:42] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 61.8048
+[20:06:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
+[20:06:42] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:06:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:06:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:43] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:07:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:07:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:44] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:08:44] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:08:44] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 59.1991
+[20:08:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:08:45] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
+[20:08:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:08:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:40] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:44] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:46] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:46] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:09:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:09:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:09] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:11] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:16] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:18] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:47] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:10:47] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:10:47] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 70.2906
+[20:10:47] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:10:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:10:57] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 119.381
+[20:11:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:04] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:10] [JM-task-4/DEBUG] [ColorManager] Cached color #14121d for minecraft:blocks/obsidian
+[20:11:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:12] [JM-task-4/DEBUG] [ColorManager] Cached color #7a7a7a for minecraft:blocks/cobblestone
+[20:11:14] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:19] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:21] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:25] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:27] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:33] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:35] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:41] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:47] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:49] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:49] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\3\-3,-2.png
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\2\-3,-2.png
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\1\-3,-2.png
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\0\-3,-2.png
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-2.png
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
+[20:11:49] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
+[20:11:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:53] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:55] [JM-task-4/DEBUG] [ColorManager] Cached color #5a3f1c for minecraft:blocks/dirt_podzol_top
+[20:11:58] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:11:58] [JM-task-4/DEBUG] [ColorManager] Cached color #9ea4b0 for minecraft:blocks/clay
+[20:12:00] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:12] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:12] [JM-task-4/DEBUG] [ColorManager] Cached color #926356 for minecraft:blocks/brick
+[20:12:12] [JM-task-4/DEBUG] [ColorManager] Cached color #dbd3a0 for minecraft:blocks/sand
+[20:12:12] [JM-task-4/DEBUG] [ColorManager] Cached color #677967 for minecraft:blocks/cobblestone_mossy
+[20:12:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:15] [JM-task-4/DEBUG] [ColorManager] Cached color #6d6c6a for minecraft:blocks/iron_bars
+[20:12:15] [JM-task-4/DEBUG] [ColorManager] Cached color #7e5d2d for minecraft:blocks/trapdoor
+[20:12:15] [JM-task-4/DEBUG] [ColorManager] Cached color #767676 for minecraft:blocks/stonebrick_cracked
+[20:12:15] [JM-task-4/DEBUG] [ColorManager] Cached color #1a2731 for minecraft:blocks/mob_spawner
+[20:12:15] [JM-task-4/DEBUG] [ColorManager] Cached color #4e3e29 for minecraft:blocks/log_big_oak_top
+[20:12:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:22] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:24] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:28] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:30] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:32] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:36] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:38] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:42] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:50] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:50] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:12:50] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-1.png
+[20:12:50] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-1.png
+[20:12:50] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-1.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-3,-2.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-3,-2.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-2.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-3,-1.png
+[20:12:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
+[20:12:52] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:55] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:12:57] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:01] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:03] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:06] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:08] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:13] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:15] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:17] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:20] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:23] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:26] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:29] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:31] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:34] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:37] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:39] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:43] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:45] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:48] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:51] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:51] [JM-task-4/DEBUG] [RegionImageCache] RegionImageCache auto-flushing
+[20:13:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-1.png
+[20:13:51] [Client thread/DEBUG] [StatTimer] TileDrawStep.updateRegionTexture was slow: 137.3397
+[20:13:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-1.png
+[20:13:51] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-1.png
+[20:13:54] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:56] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:13:59] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:14:00] [Client thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 136.9027 (Warning limit reached)
+[20:14:00] [Client thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:     137.34ms, Total:          2 sec, Count:   326791, Canceled:        0, Slow:       10
+[20:14:01] [Client thread/DEBUG] [GridRenderer] Centered on Tile [ r-3, r-1 (zoom 0) ] with pixel offsets of 481.9410810001475,-2.6405256910156822
+[20:14:02] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:14:05] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:14:07] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:14:10] [Client thread/DEBUG] [TaskController] Scheduled MapPlayerTask
+[20:14:11] [Client thread/INFO] [JourneymapClient] Mapping halted in C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0
+[20:14:11] [Client thread/DEBUG] [TaskController] Task disabled: MapPlayerTask
+[20:14:11] [Client thread/DEBUG] [TaskController] Task disabled: InitColorManagerTask
+[20:14:11] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-1.png
+[20:14:11] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-1.png
+[20:14:11] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-1.png
+[20:14:11] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-4,0.png
+[20:14:11] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,0.png
+[20:14:11] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-3,-1.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-3,-1.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-1.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-3,-2.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-3,-2.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-3,-2.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-2,-2.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\night\-2,-2.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\topo\-2,-2.png
+[20:14:12] [File IO Thread/DEBUG] [ImageHolder] Wrote to disk: C:\Users\Asus\Twitch\Minecraft\Instances\Evolution\journeymap\data\sp\Biome Bundle\DIM0\day\-3,0.png

@@ -41,31 +41,7 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
-        "minecraft:tile.oreGold",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.igneous_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.metamorphic_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore",
-        "undergroundbiomes:tile.sedimentary_stone_gold_ore"
+        "minecraft:tile.oreGold"
       ],
       "output": [
         "minecraft:gold_nugget:0"
@@ -74,31 +50,7 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "minecraft:tile.oreIron",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.igneous_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.metamorphic_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore",
-        "undergroundbiomes:tile.sedimentary_stone_iron_ore"
+        "minecraft:tile.oreIron"
       ],
       "output": [
         "minecraft:iron_nugget:0"

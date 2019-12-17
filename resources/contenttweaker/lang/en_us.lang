@@ -1,1 +1,6 @@
-item.contenttweaker.ClayPickaxe.name=Clay Pickaxe
+item.contenttweaker.clay_pickaxe.name=Clay Pickaxe
+item.contenttweaker.raw_clay_pickaxe.name=Raw Clay Pickaxe
+item.contenttweaker.clay_kaxe.name=Clay Axe
+item.contenttweaker.raw_clay_axe.name=Raw Clay Axe
+item.contenttweaker.clay_shovel.name=Clay Shovel
+item.contenttweaker.raw_clay_shovel.name=Raw Clay Shovel

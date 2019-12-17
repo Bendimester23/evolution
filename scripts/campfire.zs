@@ -1,3 +1,3 @@
 import mods.pyrotech.Campfire;
 
-Campfire.addRecipe("roasted_carrot_from_carrot", <pyrotech:carrot_roasted>, <minecraft:carrot>);
+Campfire.addRecipe("raw_pickaxe_part_to_fired", <contenttweaker:raw_clay_pickaxe_part>, <contenttweaker:clay_pickaxe_part>);

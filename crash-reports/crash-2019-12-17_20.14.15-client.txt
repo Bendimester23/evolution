@@ -1,0 +1,246 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.9-1.12.2.jar)
+  midnight (themidnight-0.3.5.jar)
+  OTGCorePlugin (OTG-Core.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  CreativePatchingLoader (CreativeCore_v1.9.78_mc1.12.2.jar)
+  FarseekCoreMod (Farseek-1.12-2.4.jar)
+  LoadingPlugin (CrashToMainMenu-client-1.12.2-1.0.0.jar)
+  LittlePatchingLoader (LittleTiles_v1.5.0-pre180_mc1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Why did you do that?
+
+Time: 12/17/19 8:14 PM
+Description: Tesselating block in world
+
+java.lang.NullPointerException: Tesselating block in world
+	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
+	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
+	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getCorrectModel(BakedModelTiered.java:55)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_177555_b(BakedModelTiered.java:72)
+	at net.minecraft.client.renderer.block.model.IBakedModel.isAmbientOcclusion(IBakedModel.java:29)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:43)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:38)
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:200)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:100)
+	at net.minecraft.client.renderer.chunk.ChunkRenderDispatcher.func_178505_b(ChunkRenderDispatcher.java:172)
+	at net.minecraft.client.renderer.RenderGlobal.func_174970_a(RenderGlobal.java:976)
+	at net.minecraft.client.renderer.EntityRenderer.func_175068_a(EntityRenderer.java:1316)
+	at net.minecraft.client.renderer.EntityRenderer.func_78471_a(EntityRenderer.java:1259)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1062)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.wildbamaboy.crashtomainmenu.asm.ASMHooks.onMinecraftRun(ASMHooks.java:56)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:374)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at net.darkhax.gamestages.data.StageData.hasStage(StageData.java:27)
+	at net.darkhax.gamestages.GameStageHelper.hasStage(GameStageHelper.java:155)
+	at net.darkhax.gamestages.GameStageHelper.clientHasStage(GameStageHelper.java:270)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.getCorrectModel(BakedModelTiered.java:55)
+	at net.darkhax.orestages.client.renderer.block.model.BakedModelTiered.func_177555_b(BakedModelTiered.java:72)
+	at net.minecraft.client.renderer.block.model.IBakedModel.isAmbientOcclusion(IBakedModel.java:29)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_187493_a(BlockModelRenderer.java:43)
+	at net.minecraft.client.renderer.BlockModelRenderer.func_178267_a(BlockModelRenderer.java:38)
+
+-- Block being tesselated --
+Details:
+	Block type: ID #15 (tile.oreIron // net.minecraft.block.BlockOre // minecraft:iron_ore)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-1120,120,-499), Chunk: (at 0,7,13 in -70,-32; contains blocks -1120,0,-512 to -1105,255,-497), Region: (-3,-1; contains chunks -96,-32 to -65,-1, blocks -1536,0,-512 to -1025,255,-1)
+Stacktrace:
+	at net.minecraft.client.renderer.BlockRendererDispatcher.func_175018_a(BlockRendererDispatcher.java:80)
+	at net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b(RenderChunk.java:200)
+	at net.minecraft.client.renderer.chunk.ChunkRenderWorker.func_178474_a(SourceFile:100)
+	at net.minecraft.client.renderer.chunk.ChunkRenderDispatcher.func_178505_b(ChunkRenderDispatcher.java:172)
+	at net.minecraft.client.renderer.RenderGlobal.func_174970_a(RenderGlobal.java:976)
+	at net.minecraft.client.renderer.EntityRenderer.func_175068_a(EntityRenderer.java:1316)
+	at net.minecraft.client.renderer.EntityRenderer.func_78471_a(EntityRenderer.java:1259)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1062)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1119)
+	at sun.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Bendimester23'/429, l='MpServer', x=-1105.66, y=118.65, z=-494.30]]
+	Chunk stats: MultiplayerChunkCache: 1369, 1369
+	Level seed: 0
+	Level generator: ID 06 - OTG, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (8,63,8), Chunk: (at 8,3,8 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 62869 game time, 12208 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 290 total; [EntityItem['item.item.bone'/16385, l='MpServer', x=-1058.88, y=81.00, z=-525.64], EntityZombie['Zombie'/19971, l='MpServer', x=-1050.50, y=37.00, z=-449.50], EntitySkeleton['Skeleton'/19978, l='MpServer', x=-1095.50, y=22.00, z=-460.50], EntityItem['item.item.stick'/17421, l='MpServer', x=-1079.81, y=130.00, z=-480.88], EntityBat['Bat'/20496, l='MpServer', x=-1152.50, y=25.00, z=-557.50], EntityZombie['Zombie'/13843, l='MpServer', x=-1032.50, y=78.00, z=-562.50], EntityItem['item.item.stick'/13844, l='MpServer', x=-1072.82, y=92.00, z=-454.13], EntityBat['Bat'/20504, l='MpServer', x=-1122.50, y=40.00, z=-569.50], EntityBat['Bat'/20505, l='MpServer', x=-1122.50, y=40.00, z=-570.50], EntitySkeleton['Skeleton'/17947, l='MpServer', x=-1088.50, y=43.00, z=-479.50], EntityItem['item.tile.sapling.big_oak'/16413, l='MpServer', x=-1051.78, y=87.00, z=-468.08], EntityItem['item.item.apple'/14371, l='MpServer', x=-1038.54, y=106.00, z=-492.13], EntityItem['item.item.stick'/15909, l='MpServer', x=-1100.13, y=119.00, z=-445.69], EntityItem['item.item.stick'/15910, l='MpServer', x=-1081.13, y=93.00, z=-449.25], EntityCreeper['Creeper'/18992, l='MpServer', x=-1161.50, y=100.00, z=-511.50], EntitySpider['Spider'/18993, l='MpServer', x=-1077.50, y=91.00, z=-552.50], EntitySquid['Squid'/20025, l='MpServer', x=-1098.49, y=8.10, z=-435.04], EntityItem['item.item.animania_raw_prime_pork'/10810, l='MpServer', x=-1136.93, y=86.00, z=-455.99], EntitySquid['Squid'/20027, l='MpServer', x=-1111.10, y=11.69, z=-460.42], EntitySquid['Squid'/20028, l='MpServer', x=-1108.49, y=11.00, z=-458.07], EntityItem['item.item.animania_raw_prime_pork'/15933, l='MpServer', x=-1099.13, y=27.00, z=-496.30], EntityItem['item.item.animania_raw_prime_pork'/15934, l='MpServer', x=-1083.64, y=16.00, z=-529.85], EntityItem['item.item.stick'/15940, l='MpServer', x=-1073.88, y=122.00, z=-485.43], EntityItem['item.item.stick'/20036, l='MpServer', x=-1104.54, y=123.00, z=-544.88], EntityItemFrame['entity.ItemFrame.name'/582, l='MpServer', x=-1114.97, y=66.50, z=-620.50], EntityItemFrame['entity.ItemFrame.name'/583, l='MpServer', x=-1114.97, y=66.50, z=-618.50], EntityItem['item.item.stick'/16969, l='MpServer', x=-1077.88, y=102.00, z=-462.88], EntityItem['item.tile.sapling.big_oak'/18509, l='MpServer', x=-1071.51, y=92.00, z=-453.13], EntityItem['item.item.feather'/12881, l='MpServer', x=-1126.70, y=87.00, z=-443.88], EntityCreeper['Creeper'/14930, l='MpServer', x=-1045.50, y=57.00, z=-502.50], EntityItem['item.item.string'/11861, l='MpServer', x=-1074.81, y=4.00, z=-542.57], EntityZombie['Zombie'/20055, l='MpServer', x=-1115.50, y=86.00, z=-471.50], EntityCreeper['Creeper'/17497, l='MpServer', x=-1146.50, y=71.00, z=-499.50], EntitySowOldSpot['Old Spot Sow'/613, l='MpServer', x=-1138.81, y=80.00, z=-453.04], EntitySowLargeBlack['Large Black Sow'/617, l='MpServer', x=-1131.98, y=120.00, z=-553.25], EntitySkeleton['Skeleton'/17002, l='MpServer', x=-1120.50, y=66.00, z=-551.50], EntitySowOldSpot['Old Spot Sow'/621, l='MpServer', x=-1155.88, y=120.00, z=-514.10], EntitySkeleton['Skeleton'/20079, l='MpServer', x=-1156.50, y=38.00, z=-473.50], EntityItem['item.item.stick'/17525, l='MpServer', x=-1151.13, y=79.00, z=-459.13], EntityZombie['Zombie'/19064, l='MpServer', x=-1082.50, y=78.00, z=-451.50], EntityItem['item.tile.sapling.big_oak'/13951, l='MpServer', x=-1105.13, y=123.00, z=-458.55], EntitySkeleton['Skeleton'/14465, l='MpServer', x=-1095.50, y=94.00, z=-556.50], EntityItem['item.item.dyePowder.black'/17027, l='MpServer', x=-1073.02, y=5.00, z=-489.75], EntityItem['item.item.stick'/13955, l='MpServer', x=-1097.78, y=119.00, z=-458.17], EntityItemFrame['entity.ItemFrame.name'/3208, l='MpServer', x=-1114.97, y=66.50, z=-619.50], EntityCreeper['Creeper'/17552, l='MpServer', x=-1123.50, y=75.00, z=-546.50], EntityItemFrame['entity.ItemFrame.name'/3219, l='MpServer', x=-1114.97, y=65.50, z=-618.50], EntitySkeleton['Skeleton'/19093, l='MpServer', x=-1050.50, y=37.00, z=-451.50], EntityItemFrame['entity.ItemFrame.name'/3222, l='MpServer', x=-1114.97, y=65.50, z=-619.50], EntityWitch['Witch'/17560, l='MpServer', x=-1116.50, y=76.00, z=-443.50], EntityEnderman['Enderman'/16025, l='MpServer', x=-1110.50, y=37.00, z=-468.50], EntityItem['item.item.stick'/18587, l='MpServer', x=-1153.88, y=78.00, z=-457.88], EntityBat['Bat'/20124, l='MpServer', x=-1140.10, y=49.11, z=-449.92], EntityBat['Bat'/20125, l='MpServer', x=-1123.74, y=42.89, z=-434.43], EntityCreeper['Creeper'/16030, l='MpServer', x=-1112.50, y=65.00, z=-477.50], EntitySquid['Squid'/18590, l='MpServer', x=-1108.81, y=60.49, z=-460.01], EntityItemFrame['entity.ItemFrame.name'/3231, l='MpServer', x=-1114.97, y=65.50, z=-620.50], EntityItem['item.item.dyePowder.black'/18080, l='MpServer', x=-1161.23, y=45.00, z=-496.62], EntityItem['item.item.stick'/13985, l='MpServer', x=-1072.88, y=90.00, z=-457.41], EntityBat['Bat'/15012, l='MpServer', x=-1037.43, y=27.30, z=-545.77], EntityZombie['Zombie'/16548, l='MpServer', x=-1119.50, y=17.00, z=-530.50], EntityBat['Bat'/20139, l='MpServer', x=-1076.51, y=20.38, z=-421.08], EntityItem['item.tile.pyrotech.rock_stone'/15532, l='MpServer', x=-1105.88, y=9.00, z=-538.56], EntityItem['item.tile.pyrotech.rock_stone'/15533, l='MpServer', x=-1103.17, y=13.00, z=-524.52], EntityItem['item.tile.pyrotech.rock_stone'/15534, l='MpServer', x=-1106.65, y=20.00, z=-492.88], EntityItem['item.tile.pyrotech.rock_stone'/15535, l='MpServer', x=-1103.93, y=5.00, z=-507.60], EntityItem['item.tile.pyrotech.rock_stone'/15536, l='MpServer', x=-1106.01, y=4.00, z=-503.94], EntitySkeleton['Skeleton'/18097, l='MpServer', x=-1022.50, y=62.00, z=-542.50], EntityItem['item.tile.rustic.grape_stem'/15538, l='MpServer', x=-1103.82, y=53.00, z=-543.34], EntityItem['item.tile.rustic.grape_stem'/15539, l='MpServer', x=-1106.95, y=3.00, z=-540.72], EntityZombie['Zombie'/14004, l='MpServer', x=-1047.50, y=96.00, z=-534.50], EntityItem['item.tile.pyrotech.rock_stone'/15540, l='MpServer', x=-1098.62, y=56.00, z=-495.98], EntityItem['item.tile.pyrotech.rock_stone'/15541, l='MpServer', x=-1100.42, y=1.00, z=-530.68], EntityItem['item.tile.pyrotech.rock_stone'/15542, l='MpServer', x=-1102.71, y=66.00, z=-538.69], EntityItem['item.tile.pyrotech.rock_stone'/15543, l='MpServer', x=-1098.06, y=27.00, z=-497.42], EntityItem['item.tile.pyrotech.rock_stone'/15544, l='MpServer', x=-1101.43, y=3.00, z=-529.13], EntityItem['item.tile.pyrotech.rock_stone'/15545, l='MpServer', x=-1100.88, y=78.00, z=-536.62], EntitySpider['Spider'/20153, l='MpServer', x=-1120.50, y=105.00, z=-528.50], EntityItem['item.tile.pyrotech.rock_stone'/15546, l='MpServer', x=-1100.63, y=5.00, z=-509.16], EntityItem['item.tile.pyrotech.rock_stone'/15547, l='MpServer', x=-1096.88, y=3.00, z=-508.44], EntitySkeleton['Skeleton'/20155, l='MpServer', x=-1132.50, y=42.00, z=-485.50], EntityItem['item.item.seeds'/15548, l='MpServer', x=-1092.61, y=17.00, z=-520.09], EntityItem['item.tile.pyrotech.rock_stone'/15549, l='MpServer', x=-1093.30, y=3.00, z=-532.46], EntityItem['item.item.stick'/17085, l='MpServer', x=-1105.94, y=123.00, z=-541.45], EntityItem['item.tile.pyrotech.rock_stone'/15550, l='MpServer', x=-1097.42, y=66.00, z=-535.92], EntityItem['item.tile.pyrotech.rock_stone'/15551, l='MpServer', x=-1098.61, y=4.00, z=-504.37], EntityItem['item.tile.sapling.big_oak'/17087, l='MpServer', x=-1157.89, y=88.00, z=-470.88], EntityItem['item.tile.pyrotech.rock_stone'/15552, l='MpServer', x=-1092.71, y=91.00, z=-509.01], EntityItem['item.tile.pyrotech.rock_stone'/15554, l='MpServer', x=-1090.69, y=5.00, z=-533.51], EntityItem['item.tile.pyrotech.rock_stone'/15555, l='MpServer', x=-1094.57, y=61.00, z=-525.00], EntityBat['Bat'/17091, l='MpServer', x=-1085.98, y=46.16, z=-554.94], EntityCreeper['Creeper'/14532, l='MpServer', x=-1127.50, y=67.00, z=-531.50], EntityItem['item.tile.pyrotech.rock_stone'/15557, l='MpServer', x=-1090.11, y=4.00, z=-529.19], EntityItem['item.tile.pyrotech.rock_stone'/15559, l='MpServer', x=-1093.73, y=16.00, z=-517.96], EntityItem['item.tile.pyrotech.rock_stone'/15560, l='MpServer', x=-1090.98, y=5.00, z=-535.79], EntityItem['item.tile.pyrotech.rock_stone'/15561, l='MpServer', x=-1090.01, y=3.00, z=-532.03], EntityItem['item.tile.pyrotech.rock_stone'/15563, l='MpServer', x=-1088.81, y=98.00, z=-508.92], EntityItem['item.tile.pyrotech.rock_stone'/15565, l='MpServer', x=-1087.28, y=57.00, z=-533.60], EntityItem['item.tile.pyrotech.rock_stone'/15566, l='MpServer', x=-1086.72, y=3.00, z=-502.42], EntityItem['item.tile.pyrotech.rock_stone'/15567, l='MpServer', x=-1086.70, y=10.00, z=-536.82], EntityItem['item.tile.pyrotech.rock_stone'/15568, l='MpServer', x=-1091.24, y=54.00, z=-518.11], EntityItem['item.tile.pyrotech.rock_stone'/15569, l='MpServer', x=-1090.70, y=5.00, z=-530.19], EntityItem['item.tile.pyrotech.rock_stone'/15570, l='MpServer', x=-1085.30, y=57.00, z=-534.25], EntityItem['item.tile.sapling.big_oak'/17106, l='MpServer', x=-1055.88, y=116.00, z=-495.88], EntityZombie['Zombie'/15059, l='MpServer', x=-1115.50, y=47.00, z=-524.50], EntityItem['item.item.animania_raw_prime_pork'/13524, l='MpServer', x=-1092.14, y=20.00, z=-557.07], EntityItem['item.item.rustic.chili_pepper_seeds'/15573, l='MpServer', x=-1086.10, y=4.00, z=-524.32], EntityItem['item.tile.pyrotech.rock_stone'/15574, l='MpServer', x=-1088.34, y=63.00, z=-515.90], EntityItem['item.item.rustic.chili_pepper_seeds'/15575, l='MpServer', x=-1088.88, y=4.00, z=-518.82], EntityItem['item.tile.pyrotech.rock_stone'/15576, l='MpServer', x=-1089.05, y=45.00, z=-530.90], EntityZombie['Zombie'/19672, l='MpServer', x=-1035.50, y=99.00, z=-541.50], EntityItem['item.tile.pyrotech.rock_stone'/15577, l='MpServer', x=-1089.18, y=79.00, z=-527.68], EntityItem['item.tile.pyrotech.rock_stone'/15578, l='MpServer', x=-1087.26, y=2.00, z=-521.16], EntityItem['item.tile.pyrotech.rock_stone'/15579, l='MpServer', x=-1086.18, y=2.00, z=-515.85], EntityItem['item.item.rustic.tomato_seeds'/15580, l='MpServer', x=-1085.61, y=60.00, z=-493.98], EntityItem['item.tile.pyrotech.rock_stone'/15581, l='MpServer', x=-1088.55, y=3.00, z=-494.33], EntityItem['item.tile.pyrotech.rock_stone'/15582, l='MpServer', x=-1081.83, y=97.00, z=-495.06], EntityItem['item.item.rustic.tomato_seeds'/15583, l='MpServer', x=-1084.67, y=26.00, z=-518.68], EntityItem['item.tile.pyrotech.rock_stone'/15584, l='MpServer', x=-1087.49, y=3.00, z=-519.65], EntityItem['item.tile.pyrotech.rock_stone'/15585, l='MpServer', x=-1081.89, y=5.00, z=-522.04], EntityItem['item.item.rustic.chili_pepper_seeds'/15586, l='MpServer', x=-1078.13, y=67.00, z=-523.70], EntityEweMerino['Merino Ewe'/738, l='MpServer', x=-1062.08, y=75.00, z=-449.20], EntityItem['item.tile.pyrotech.rock_stone'/15587, l='MpServer', x=-1076.08, y=15.00, z=-516.73], EntitySpider['Spider'/20195, l='MpServer', x=-1161.50, y=83.00, z=-487.50], EntityItem['item.tile.pyrotech.rock_stone'/15588, l='MpServer', x=-1076.24, y=2.00, z=-512.49], EntityItem['item.tile.pyrotech.rock_stone'/15589, l='MpServer', x=-1082.98, y=4.00, z=-520.77], EntityItem['item.item.rustic.tomato_seeds'/15590, l='MpServer', x=-1074.49, y=4.00, z=-519.98], EntityItem['item.item.dyePowder.black'/19686, l='MpServer', x=-1079.88, y=3.00, z=-487.79], EntityItem['item.tile.pyrotech.rock_stone'/15591, l='MpServer', x=-1078.90, y=33.00, z=-494.13], EntityItem['item.tile.pyrotech.rock_stone'/15592, l='MpServer', x=-1080.69, y=4.00, z=-500.91], EntityItem['item.tile.rustic.grape_stem'/15593, l='MpServer', x=-1078.06, y=55.00, z=-503.27], EntityItem['item.tile.pyrotech.rock_stone'/15594, l='MpServer', x=-1077.05, y=67.00, z=-524.09], EntityItem['item.tile.sapling.big_oak'/14058, l='MpServer', x=-1066.13, y=112.00, z=-476.11], EntityItem['item.item.seeds'/15595, l='MpServer', x=-1080.92, y=4.00, z=-515.42], EntityItem['item.tile.pyrotech.rock_stone'/15596, l='MpServer', x=-1075.90, y=5.00, z=-498.71], EntityHogYorkshire['American Yorkshire Hog'/750, l='MpServer', x=-1055.95, y=99.00, z=-480.17], EntityItem['item.tile.pyrotech.rock_stone'/15598, l='MpServer', x=-1075.02, y=26.00, z=-541.26], EntityItem['item.tile.pyrotech.rock_stone'/15600, l='MpServer', x=-1072.44, y=48.00, z=-515.42], EntityItem['item.tile.pyrotech.rock_stone'/15601, l='MpServer', x=-1074.00, y=78.00, z=-526.03], EntityItem['item.tile.pyrotech.rock_stone'/15602, l='MpServer', x=-1076.45, y=74.00, z=-519.29], EntityZombie['Zombie'/18162, l='MpServer', x=-1113.50, y=28.00, z=-553.50], EntityItem['item.tile.pyrotech.rock_stone'/15603, l='MpServer', x=-1072.00, y=89.00, z=-516.78], EntitySowOldSpot['Old Spot Sow'/755, l='MpServer', x=-1150.20, y=69.00, z=-431.16], EntityItem['item.tile.pyrotech.rock_stone'/15604, l='MpServer', x=-1074.11, y=78.00, z=-505.87], EntityDartFrogs['Dart Frog'/757, l='MpServer', x=-1053.50, y=103.00, z=-487.50], EntityItem['item.tile.pyrotech.rock_stone'/15605, l='MpServer', x=-1078.40, y=40.00, z=-505.42], EntitySowYorkshire['American Yorkshire Sow'/758, l='MpServer', x=-1096.00, y=115.00, z=-449.21], EntityItem['item.tile.pyrotech.rock_stone'/15607, l='MpServer', x=-1072.10, y=57.00, z=-523.16], EntityItem['item.tile.pyrotech.rock_stone'/15608, l='MpServer', x=-1069.33, y=3.00, z=-522.18], EntitySowYorkshire['American Yorkshire Sow'/760, l='MpServer', x=-1103.19, y=120.00, z=-465.95], EntityItem['item.tile.pyrotech.rock_stone'/15609, l='MpServer', x=-1075.08, y=5.00, z=-538.17], EntityItem['item.tile.pyrotech.rock_stone'/15610, l='MpServer', x=-1073.11, y=81.00, z=-535.06], EntityItem['item.tile.pyrotech.rock_stone'/15611, l='MpServer', x=-1072.84, y=5.00, z=-522.34], EntityCreeper['Creeper'/18683, l='MpServer', x=-1059.50, y=66.00, z=-453.50], EntityItem['item.tile.sapling.big_oak'/14587, l='MpServer', x=-1076.49, y=94.00, z=-456.74], EntitySquid['Squid'/20219, l='MpServer', x=-1161.09, y=45.00, z=-496.50], EntityItem['item.tile.pyrotech.rock_stone'/15612, l='MpServer', x=-1071.98, y=4.00, z=-510.55], EntitySowOldSpot['Old Spot Sow'/764, l='MpServer', x=-1093.12, y=117.00, z=-447.97], EntitySowYorkshire['American Yorkshire Sow'/765, l='MpServer', x=-1097.86, y=114.00, z=-438.86], EntityItem['item.tile.pyrotech.rock_stone'/15614, l='MpServer', x=-1070.51, y=73.00, z=-539.09], EntitySowLargeBlack['Large Black Sow'/766, l='MpServer', x=-1114.04, y=101.00, z=-437.00], EntityItem['item.tile.rustic.grape_stem'/15615, l='MpServer', x=-1073.62, y=78.00, z=-524.35], EntitySowLargeBlack['Large Black Sow'/767, l='MpServer', x=-1114.50, y=97.00, z=-436.50], EntityItem['item.tile.pyrotech.rock_stone'/15616, l='MpServer', x=-1066.86, y=80.00, z=-518.76], EntityCreeper['Creeper'/19200, l='MpServer', x=-1150.50, y=52.00, z=-548.50], EntitySowOldSpot['Old Spot Sow'/769, l='MpServer', x=-1094.55, y=120.00, z=-486.45], EntityItem['item.tile.pyrotech.rock_stone'/15617, l='MpServer', x=-1073.07, y=91.00, z=-513.30], EntityItem['item.tile.pyrotech.rock_stone'/15618, l='MpServer', x=-1072.84, y=4.00, z=-507.12], EntityItem['item.tile.rustic.grape_stem'/15619, l='MpServer', x=-1066.89, y=3.00, z=-506.48], EntityItem['item.tile.pyrotech.rock_stone'/15620, l='MpServer', x=-1072.92, y=80.00, z=-532.71], EntityItem['item.item.rustic.chili_pepper_seeds'/15621, l='MpServer', x=-1070.70, y=3.00, z=-534.88], EntityItem['item.item.rustic.tomato_seeds'/15622, l='MpServer', x=-1068.27, y=81.00, z=-517.19], EntityItem['item.item.stick'/16646, l='MpServer', x=-1056.48, y=129.00, z=-495.88], EntityItem['item.tile.pyrotech.rock_stone'/15623, l='MpServer', x=-1071.79, y=3.00, z=-501.17], EntityItem['item.tile.rustic.grape_stem'/15624, l='MpServer', x=-1073.07, y=4.00, z=-527.33], EntityItem['item.tile.pyrotech.rock_stone'/15625, l='MpServer', x=-1072.46, y=8.00, z=-529.94], EntityItem['item.tile.pyrotech.rock_stone'/15626, l='MpServer', x=-1067.11, y=3.00, z=-530.45], EntitySowOldSpot['Old Spot Sow'/779, l='MpServer', x=-1141.08, y=120.00, z=-477.75], EntityItem['item.tile.pyrotech.rock_stone'/15628, l='MpServer', x=-1071.41, y=44.00, z=-496.41], EntityItem['item.tile.pyrotech.rock_stone'/15629, l='MpServer', x=-1066.88, y=4.00, z=-544.47], EntityItem['item.tile.pyrotech.rock_stone'/15631, l='MpServer', x=-1070.67, y=4.00, z=-530.08], EntitySowOldSpot['Old Spot Sow'/787, l='MpServer', x=-1126.50, y=99.00, z=-457.50], EntityItem['item.tile.pyrotech.rock_stone'/15636, l='MpServer', x=-1065.35, y=4.00, z=-538.53], EntitySowOldSpot['Old Spot Sow'/788, l='MpServer', x=-1118.98, y=104.00, z=-452.15], EntityItem['item.tile.pyrotech.rock_stone'/15637, l='MpServer', x=-1068.15, y=2.00, z=-537.23], EntityItem['item.tile.pyrotech.rock_stone'/15638, l='MpServer', x=-1063.06, y=82.00, z=-534.00], EntityItem['item.tile.pyrotech.rock_stone'/15639, l='MpServer', x=-1062.29, y=3.00, z=-524.37], EntityHogOldSpot['Old Spot Hog'/792, l='MpServer', x=-1117.93, y=121.00, z=-552.17], EntityItem['item.tile.pyrotech.rock_stone'/15641, l='MpServer', x=-1069.44, y=3.00, z=-513.85], EntitySowOldSpot['Old Spot Sow'/793, l='MpServer', x=-1041.25, y=121.00, z=-518.92], EntityItem['item.tile.pyrotech.rock_stone'/15642, l='MpServer', x=-1067.96, y=45.00, z=-497.03], EntitySowLargeBlack['Large Black Sow'/794, l='MpServer', x=-1122.86, y=123.00, z=-522.21], EntityItem['item.tile.pyrotech.rock_stone'/15643, l='MpServer', x=-1066.36, y=3.00, z=-497.88], EntitySkeleton['Skeleton'/18203, l='MpServer', x=-1091.50, y=27.00, z=-561.50], EntityCreeper['Creeper'/19740, l='MpServer', x=-1098.50, y=58.00, z=-417.50], EntityItem['item.item.stick'/16156, l='MpServer', x=-1148.18, y=75.00, z=-442.65], EntityItem['item.item.seeds'/15645, l='MpServer', x=-1061.39, y=2.00, z=-533.54], EntityItemFrame['entity.ItemFrame.name'/3358, l='MpServer', x=-1114.97, y=66.50, z=-621.50], EntityItem['item.tile.pyrotech.rock_stone'/15646, l='MpServer', x=-1064.67, y=2.00, z=-510.37], EntityItem['item.tile.rustic.grape_stem'/15648, l='MpServer', x=-1068.31, y=44.00, z=-495.93], EntityItem['item.tile.pyrotech.rock_stone'/15649, l='MpServer', x=-1063.93, y=62.00, z=-537.92], EntitySkeleton['Skeleton'/19745, l='MpServer', x=-1107.50, y=77.00, z=-569.50], EntitySowOldSpot['Old Spot Sow'/801, l='MpServer', x=-1141.04, y=120.00, z=-532.75], EntityItem['item.tile.pyrotech.rock_stone'/15650, l='MpServer', x=-1066.07, y=3.00, z=-527.72], EntitySowLargeBlack['Large Black Sow'/803, l='MpServer', x=-1131.33, y=120.00, z=-507.97], EntityItem['item.tile.pyrotech.rock_stone'/15652, l='MpServer', x=-1061.71, y=33.00, z=-519.26], EntityItem['item.tile.pyrotech.rock_stone'/15653, l='MpServer', x=-1065.13, y=5.00, z=-508.11], EntityItem['item.tile.pyrotech.rock_stone'/15654, l='MpServer', x=-1060.04, y=3.00, z=-501.79], EntitySowLargeBlack['Large Black Sow'/806, l='MpServer', x=-1127.06, y=120.00, z=-532.17], EntityItem['item.tile.pyrotech.rock_stone'/15655, l='MpServer', x=-1065.50, y=4.00, z=-502.90], EntityItem['item.item.stick'/16679, l='MpServer', x=-1093.79, y=5.00, z=-497.60], EntitySowLargeBlack['Large Black Sow'/807, l='MpServer', x=-1126.83, y=120.00, z=-523.07], EntityItem['item.tile.pyrotech.rock_stone'/15656, l='MpServer', x=-1059.76, y=46.00, z=-537.93], EntitySquid['Squid'/20264, l='MpServer', x=-1091.82, y=60.58, z=-436.73], EntityItem['item.tile.pyrotech.rock_stone'/15657, l='MpServer', x=-1067.44, y=64.00, z=-493.87], EntitySkeleton['Skeleton'/14635, l='MpServer', x=-1044.50, y=93.00, z=-548.50], EntityCreeper['Creeper'/19244, l='MpServer', x=-1084.50, y=53.00, z=-561.50], EntityItem['item.tile.pyrotech.rock_stone'/15661, l='MpServer', x=-1060.93, y=5.00, z=-530.49], EntityBat['Bat'/17197, l='MpServer', x=-1081.50, y=9.12, z=-464.82], EntityCreeper['Creeper'/19245, l='MpServer', x=-1084.50, y=53.00, z=-560.50], EntityItem['item.tile.pyrotech.rock_stone'/15662, l='MpServer', x=-1064.60, y=68.00, z=-528.92], EntitySowOldSpot['Old Spot Sow'/814, l='MpServer', x=-1133.00, y=120.00, z=-531.19], EntityHenRhodeIslandRed['Rhode Island Red Hen'/815, l='MpServer', x=-1097.49, y=95.00, z=-530.18], EntityHenRhodeIslandRed['Rhode Island Red Hen'/816, l='MpServer', x=-1102.50, y=48.19, z=-498.51], EntitySpider['Spider'/14640, l='MpServer', x=-1074.50, y=66.00, z=-571.50], EntityItem['item.tile.pyrotech.rock_stone'/15664, l='MpServer', x=-1064.41, y=83.00, z=-494.20], EntityItem['item.tile.pyrotech.rock_stone'/15665, l='MpServer', x=-1063.41, y=3.00, z=-523.40], EntityItem['item.tile.pyrotech.rock_stone'/15666, l='MpServer', x=-1063.17, y=4.00, z=-512.76], EntityItem['item.tile.pyrotech.rock_stone'/15667, l='MpServer', x=-1066.61, y=3.00, z=-503.28], EntityItem['item.item.stick'/17203, l='MpServer', x=-1106.36, y=125.00, z=-512.77], EntityItemFrame['entity.ItemFrame.name'/3380, l='MpServer', x=-1114.97, y=65.50, z=-621.50], EntityItem['item.item.stick'/17716, l='MpServer', x=-1094.63, y=102.00, z=-433.88], EntityItem['item.tile.pyrotech.rock_stone'/15670, l='MpServer', x=-1062.57, y=99.00, z=-544.41], EntityItemFrame['entity.ItemFrame.name'/3383, l='MpServer', x=-1114.97, y=66.50, z=-622.50], EntityItem['item.tile.pyrotech.rock_stone'/15671, l='MpServer', x=-1061.78, y=2.00, z=-533.78], EntitySowOldSpot['Old Spot Sow'/823, l='MpServer', x=-1128.53, y=120.00, z=-545.30], EntityItem['item.tile.pyrotech.rock_stone'/15672, l='MpServer', x=-1065.26, y=5.00, z=-496.20], EntitySowOldSpot['Old Spot Sow'/824, l='MpServer', x=-1132.00, y=120.00, z=-550.27], EntityItem['item.tile.pyrotech.rock_stone'/15673, l='MpServer', x=-1060.28, y=3.00, z=-509.90], EntityItem['item.tile.pyrotech.rock_stone'/15675, l='MpServer', x=-1057.83, y=5.00, z=-530.91], EntityItem['item.tile.pyrotech.rock_stone'/15676, l='MpServer', x=-1062.21, y=3.00, z=-521.80], EntityItem['item.tile.pyrotech.rock_stone'/15677, l='MpServer', x=-1058.03, y=81.00, z=-500.40], EntityItem['item.tile.pyrotech.rock_stone'/15678, l='MpServer', x=-1058.11, y=4.00, z=-513.93], EntityBat['Bat'/20286, l='MpServer', x=-1135.48, y=49.40, z=-459.25], EntityItem['item.tile.pyrotech.rock_stone'/15680, l='MpServer', x=-1063.24, y=4.00, z=-509.44], EntityItem['item.tile.pyrotech.rock_stone'/15681, l='MpServer', x=-1061.11, y=5.00, z=-531.82], EntityItem['item.tile.rustic.grape_stem'/15682, l='MpServer', x=-1060.16, y=3.00, z=-533.83], EntityItem['item.tile.pyrotech.rock_stone'/15683, l='MpServer', x=-1057.04, y=5.00, z=-535.93], EntityBat['Bat'/18755, l='MpServer', x=-1100.55, y=19.34, z=-480.61], EntityItem['item.tile.pyrotech.rock_stone'/15684, l='MpServer', x=-1058.20, y=3.00, z=-535.38], EntityItem['item.tile.pyrotech.rock_stone'/15685, l='MpServer', x=-1060.88, y=29.00, z=-500.23], EntityItem['item.tile.pyrotech.rock_stone'/15687, l='MpServer', x=-1061.79, y=16.00, z=-508.15], EntityItem['item.tile.pyrotech.rock_stone'/15688, l='MpServer', x=-1058.93, y=4.00, z=-503.92], EntityBat['Bat'/19272, l='MpServer', x=-1142.58, y=45.74, z=-467.90], EntityItem['item.tile.pyrotech.rock_stone'/15689, l='MpServer', x=-1058.92, y=3.00, z=-538.22], EntityItem['item.tile.pyrotech.rock_stone'/15691, l='MpServer', x=-1057.13, y=2.00, z=-503.70], EntityItemFrame['entity.ItemFrame.name'/3416, l='MpServer', x=-1114.97, y=65.50, z=-622.50], EntityZombie['Zombie'/15192, l='MpServer', x=-1107.50, y=87.00, z=-452.50], EntitySpider['Spider'/15194, l='MpServer', x=-1128.50, y=75.00, z=-547.50], EntityItemFrame['entity.ItemFrame.name'/3420, l='MpServer', x=-1114.97, y=66.50, z=-623.50], EntityItemFrame['entity.ItemFrame.name'/3423, l='MpServer', x=-1114.97, y=65.50, z=-623.50], EntitySpider['Spider'/16735, l='MpServer', x=-1126.50, y=88.00, z=-488.50], EntityZombie['Zombie'/15202, l='MpServer', x=-1123.50, y=97.00, z=-539.50], EntityZombie['Zombie'/16742, l='MpServer', x=-1113.50, y=69.00, z=-572.50], EntityZombie['Zombie'/19816, l='MpServer', x=-1126.50, y=50.00, z=-551.50], EntityBat['Bat'/19824, l='MpServer', x=-1097.36, y=22.87, z=-447.03], EntitySpider['Spider'/16255, l='MpServer', x=-1101.50, y=33.00, z=-460.50], EntitySkeleton['Skeleton'/16773, l='MpServer', x=-1040.50, y=88.00, z=-539.50], EntityZombie['Zombie'/18826, l='MpServer', x=-1135.21, y=73.00, z=-494.50], EntityZombie['Zombie'/19353, l='MpServer', x=-1063.50, y=54.00, z=-572.50], EntityItem['item.item.apple'/16282, l='MpServer', x=-1106.92, y=124.00, z=-543.03], EntityItem['item.item.stick'/16283, l='MpServer', x=-1103.55, y=54.00, z=-541.48], EntityBat['Bat'/20382, l='MpServer', x=-1167.08, y=54.99, z=-572.75], EntityCreeper['Creeper'/13729, l='MpServer', x=-1122.50, y=109.00, z=-537.50], EntityCreeper['Creeper'/18850, l='MpServer', x=-1119.50, y=63.00, z=-512.50], EntityCreeper['Creeper'/19874, l='MpServer', x=-1102.50, y=71.00, z=-431.50], EntityZombie['Zombie'/18359, l='MpServer', x=-1131.50, y=28.00, z=-541.50], EntityZombie['Zombie'/18360, l='MpServer', x=-1130.50, y=28.00, z=-542.50], EntityItem['item.tile.sapling.big_oak'/16319, l='MpServer', x=-1056.83, y=130.00, z=-494.02], EntityCitizen['Duarte P. Barstaple'/869, l='MpServer', x=-1116.68, y=65.00, z=-668.14], EntityItem['item.item.stick'/16328, l='MpServer', x=-1104.29, y=4.00, z=-515.50], EntityPlayerSP['Bendimester23'/429, l='MpServer', x=-1105.66, y=118.65, z=-494.30], EntityBat['Bat'/14809, l='MpServer', x=-1067.32, y=37.74, z=-505.35], EntityCreeper['Creeper'/19428, l='MpServer', x=-1109.50, y=63.00, z=-444.50], EntityCreeper['Creeper'/19435, l='MpServer', x=-1094.50, y=41.00, z=-463.50], EntitySpider['Spider'/20461, l='MpServer', x=-1144.50, y=35.00, z=-487.50], EntityItem['item.item.feather'/12785, l='MpServer', x=-1105.20, y=58.00, z=-531.40], EntityItem['item.item.feather'/12274, l='MpServer', x=-1090.76, y=97.00, z=-505.25], EntityItem['item.item.arrow'/16377, l='MpServer', x=-1068.25, y=44.00, z=-496.88], EntityItem['item.item.bone'/16378, l='MpServer', x=-1069.51, y=44.00, z=-494.95]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:420)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2741)
+	at com.wildbamaboy.crashtomainmenu.asm.ASMHooks.onMinecraftRun(ASMHooks.java:71)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:374)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_231, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1021646496 bytes (974 MB) / 2466775040 bytes (2352 MB) up to 3008888832 bytes (2869 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3228m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2847 66 mods loaded, 66 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                   | Version                 | Source                                             | Signature                                |
+	|:------ |:-------------------- |:----------------------- |:-------------------------------------------------- |:---------------------------------------- |
+	| LCHIJA | minecraft            | 1.12.2                  | minecraft.jar                                      | None                                     |
+	| LCHIJA | mcp                  | 9.42                    | minecraft.jar                                      | None                                     |
+	| LCHIJA | FML                  | 8.0.99.99               | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | forge                | 14.23.5.2847            | forge-1.12.2-14.23.5.2847.jar                      | None                                     |
+	| LCHIJA | creativecoredummy    | 1.0.0                   | minecraft.jar                                      | None                                     |
+	| LCHIJA | littletilescore      | 1.0.0                   | minecraft.jar                                      | None                                     |
+	| LCHIJA | otgcore              | 1.12.2 - v8.3           | minecraft.jar                                      | None                                     |
+	| LCHIJA | foamfixcore          | 7.7.4                   | minecraft.jar                                      | None                                     |
+	| LCHIJA | alcatrazcore         | 1.0.4                   | alcatrazcore-1.0.4.jar                             | 3c2d6be715971d1ed58a028cdb3fae72987fc934 |
+	| LCHIJA | craftstudioapi       | 1.0.0                   | CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar | None                                     |
+	| LCHIJA | openterraingenerator | v8.3                    | OpenTerrainGenerator-1.12.2 - v8.3.jar             | None                                     |
+	| LCHIJA | animania             | 1.7.3                   | animania-1.12.2-1.7.3.jar                          | None                                     |
+	| LCHIJA | aquaculture          | 1.6.8                   | Aquaculture-1.12.2-1.6.8.jar                       | None                                     |
+	| LCHIJA | crafttweaker         | 4.1.20                  | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | mtlib                | 3.0.6                   | MTLib-3.0.6.jar                                    | None                                     |
+	| LCHIJA | modtweaker           | 4.0.17                  | modtweaker-4.0.17.jar                              | None                                     |
+	| LCHIJA | jei                  | 4.15.0.291              | jei_1.12.2-4.15.0.291.jar                          | None                                     |
+	| LCHIJA | athenaeum            | 1.12.2-1.17.4           | athenaeum-1.12.2-1.17.4.jar                        | None                                     |
+	| LCHIJA | base                 | 3.13.0                  | base-1.12.2-3.13.0.jar                             | None                                     |
+	| LCHIJA | biomebundle          | 5.1                     | Biome_Bundle-1.12.2-v6.1.jar                       | None                                     |
+	| LCHIJA | bookshelf            | 2.3.590                 | Bookshelf-1.12.2-2.3.590.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | mantle               | 1.12-1.3.3.55           | Mantle-1.12-1.3.3.55.jar                           | None                                     |
+	| LCHIJA | tconstruct           | 1.12.2-2.12.0.157       | TConstruct-1.12.2-2.12.0.157.jar                   | None                                     |
+	| LCHIJA | ceramics             | 1.12-1.3.7              | Ceramics-1.12-1.3.7.jar                            | None                                     |
+	| LCHIJA | contenttweaker       | 1.12.2-4.9.1            | ContentTweaker-1.12.2-4.9.1.jar                    | None                                     |
+	| LCHIJA | controlling          | 3.0.7                   | Controlling-3.0.7.jar                              | None                                     |
+	| LCHIJA | ctgui                | 1.0.0                   | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | crafttweakerjei      | 2.0.3                   | CraftTweaker2-1.12-4.1.20.jar                      | None                                     |
+	| LCHIJA | creativecore         | 1.9.9                   | CreativeCore_v1.9.78_mc1.12.2.jar                  | None                                     |
+	| LCHIJA | cucumber             | 1.1.3                   | Cucumber-1.12.2-1.1.3.jar                          | None                                     |
+	| LCHIJA | custommainmenu       | 2.0.9                   | CustomMainMenu-MC1.12.2-2.0.9.jar                  | None                                     |
+	| LCHIJA | gamestages           | 2.0.115                 | GameStages-1.12.2-2.0.115.jar                      | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | dropt                | 1.12.2-1.16.1           | dropt-1.12.2-1.16.1.jar                            | None                                     |
+	| LCHIJA | extendedcrafting     | 1.5.6                   | ExtendedCrafting-1.12.2-1.5.6.jar                  | None                                     |
+	| LCHIJA | farseek              | 2.4                     | Farseek-1.12-2.4.jar                               | None                                     |
+	| LCHIJA | foamfix              | 0.10.9-1.12.2           | foamfix-0.10.9-1.12.2.jar                          | None                                     |
+	| LCHIJA | ftbbackups           | 1.1.0.1                 | FTBBackups-1.1.0.1.jar                             | None                                     |
+	| LCHIJA | ftblib               | 5.4.4.5                 | FTBLib-5.4.4.5.jar                                 | None                                     |
+	| LCHIJA | ftbutilities         | 5.4.0.124               | FTBUtilities-5.4.0.124.jar                         | None                                     |
+	| LCHIJA | itemfilters          | 1.0.3.12                | ItemFilters-1.0.3.12.jar                           | None                                     |
+	| LCHIJA | ftbquests            | 1.8.0.237               | FTBQuests-1.8.0.237.jar                            | None                                     |
+	| LCHIJA | gamestagebooks       | 1.12.2-1.0.2            | gamestagebooks-1.12.2-1.0.2-universal.jar          | None                                     |
+	| LCHIJA | journeymap           | 1.12.2-5.5.5            | journeymap-1.12.2-5.5.5.jar                        | None                                     |
+	| LCHIJA | littletiles          | 1.5.0                   | LittleTiles_v1.5.0-pre180_mc1.12.2.jar             | None                                     |
+	| LCHIJA | lunatriuscore        | 1.2.0.42                | LunatriusCore-1.12.2-1.2.0.42-universal.jar        | None                                     |
+	| LCHIJA | norecipebook         | 1.2.1                   | noRecipeBook_v1.2.2formc1.12.2.jar                 | None                                     |
+	| LCHIJA | notreepunching       | 2.0.20                  | notreepunching-2.0.20.jar                          | 3c2d6be715971d1ed58a028cdb3fae72987fc934 |
+	| LCHIJA | oretweaker           | 1.0.2-1.12.0            | Ore Tweaker-1.0.2-1.12.0.jar                       | None                                     |
+	| LCHIJA | oreexcavation        | 1.4.143                 | OreExcavation-1.4.143.jar                          | None                                     |
+	| LCHIJA | orestages            | 2.0.37                  | OreStages-1.12.2-2.0.37.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHIJA | packcrashinfo        | %VERSION%               | packcrashinfo-1.0.1.jar                            | None                                     |
+	| LCHIJA | patchouli            | 1.0-20                  | Patchouli-1.0-20.jar                               | None                                     |
+	| LCHIJA | pillar               | 1.2-10                  | Pillar-1.2-10.jar                                  | None                                     |
+	| LCHIJA | theoneprobe          | 1.4.28                  | theoneprobe-1.12-1.4.28.jar                        | None                                     |
+	| LCHIJA | pyrotech             | 1.12.2-1.4.16           | pyrotech-1.12.2-1.4.16.jar                         | None                                     |
+	| LCHIJA | recipestages         | 1.1.3                   | RecipeStages-1.1.3.jar                             | None                                     |
+	| LCHIJA | resourceloader       | 1.5.3                   | ResourceLoader-MC1.12.1-1.5.3.jar                  | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJA | rustic               | 1.1.2                   | rustic-1.1.2.jar                                   | None                                     |
+	| LCHIJA | schematica           | 1.8.0.169               | Schematica-1.12.2-1.8.0.169-universal.jar          | None                                     |
+	| LCHIJA | simpleoregen         | 4.3.4                   | SimpleOreGeneration-4.3.4 mc 1.12.2.jar            | None                                     |
+	| LCHIJA | streams              | 0.4.7                   | Streams-1.12-0.4.7.jar                             | None                                     |
+	| LCHIJA | tetra                | 0.39.1                  | tetra-1.12.2-0.39.1.jar                            | None                                     |
+	| LCHIJA | worldstripper        | 1.6.0-1.12.2            | World-Stripper-1.6.0-1.12.2.jar                    | None                                     |
+	| LCHIJA | structurize          | 1.12.2-0.10.124-ALPHA   | structurize-1.12.2-0.10.124-ALPHA.jar              | None                                     |
+	| LCHIJA | minecolonies         | 1.12.2-0.10.592-RELEASE | minecolonies-1.12.2-0.10.592-RELEASE-universal.jar | None                                     |
+	| LCHIJA | midnight             | 0.3.5                   | themidnight-0.3.5.jar                              | None                                     |
+
+	Loaded coremods (and transformers): 
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.9-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+midnight (themidnight-0.3.5.jar)
+  com.mushroom.midnight.core.transformer.MidnightClassTransformer
+OTGCorePlugin (OTG-Core.jar)
+  com.pg85.otg.forge.asm.excluded.OTGClassTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+CreativePatchingLoader (CreativeCore_v1.9.78_mc1.12.2.jar)
+  
+FarseekCoreMod (Farseek-1.12-2.4.jar)
+  farseek.core.FarseekClassTransformer
+LoadingPlugin (CrashToMainMenu-client-1.12.2-1.0.0.jar)
+  com.wildbamaboy.crashtomainmenu.asm.ClassTransformer
+LittlePatchingLoader (LittleTiles_v1.5.0-pre180_mc1.12.2.jar)
+  com.creativemd.littletiles.LittleTilesTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 441.66' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerHarvestTools (Enabled/Forced)
+		- TinkerMeleeWeapons (Enabled/Forced)
+		- TinkerRangedWeapons (Enabled/Forced)
+		- TinkerModifiers (Enabled/Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+		- TinkerModelRegister (Enabled/Forced)
+		- theoneprobeIntegration (Enabled/Not Forced)
+
+	Modpack Information: Modpack: [Evolution] Version: [null] by author [null]
+	Launched Version: forge-14.23.5.2847
+	LWJGL: 2.9.4
+	OpenGL: GeForce GTX 1050/PCIe/SSE2 GL version 4.6.0 NVIDIA 441.66, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz
