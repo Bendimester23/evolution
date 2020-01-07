@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-12-17T18:55:28.3325911Z",
+  "lastPlayed": "2019-12-18T15:13:53.2599606Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -44,6 +44,21 @@
   "installPath": "C:\\Users\\Asus\\Twitch\\Minecraft\\Instances\\Evolution\\",
   "name": "Evolution",
   "cachedScans": [
+    {
+      "folderName": "CreativeCore_v1.9.78_mc1.12.2.jar",
+      "fingerprint": 3416302550,
+      "fileDateHash": 3891944694,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3416302550
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.2457136Z",
+      "lastWriteTimeUtc": "2019-12-16T18:13:14.6147188Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6800218Z",
+      "fileCount": 1,
+      "fileSize": 954478
+    },
     {
       "folderName": "Aquaculture-1.12.2-1.6.8.jar",
       "fingerprint": 3407464863,
@@ -73,6 +88,21 @@
       "queryTimestamp": "2019-12-17T19:14:17.6800218Z",
       "fileCount": 1,
       "fileSize": 31806
+    },
+    {
+      "folderName": "CrashToMainMenu-client-1.12.2-1.0.0.jar",
+      "fingerprint": 2258992781,
+      "fileDateHash": 1275085112,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2258992781
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.2457136Z",
+      "lastWriteTimeUtc": "2019-12-16T18:02:29.7131466Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6800218Z",
+      "fileCount": 1,
+      "fileSize": 23276
     },
     {
       "folderName": "animania-1.12.2-1.7.3.jar",
@@ -163,6 +193,21 @@
       "queryTimestamp": "2019-12-17T19:14:17.6810191Z",
       "fileCount": 1,
       "fileSize": 446452
+    },
+    {
+      "folderName": "alcatrazcore-1.0.4.jar",
+      "fingerprint": 1102474827,
+      "fileDateHash": 236583847,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1102474827
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.2267633Z",
+      "lastWriteTimeUtc": "2019-12-16T18:21:37.0448039Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6819884Z",
+      "fileCount": 1,
+      "fileSize": 109321
     },
     {
       "folderName": "Controlling-3.0.7.jar",
@@ -327,76 +372,84 @@
     },
     {
       "folderName": "Biome Bundle",
-      "fingerprint": 871682289,
-      "fileDateHash": 976699910,
+      "fingerprint": 1013080782,
+      "fileDateHash": 2033426521,
       "sectionID": 10,
       "individualFingerprints": [
-        20603733,
-        20603733,
-        20603733,
-        20603733,
         194076912,
-        312960144,
-        384483034,
+        342877799,
         489458212,
         489458212,
         500036828,
-        523629476,
-        570037852,
-        681143351,
         758054953,
         758054953,
         758054953,
         758054953,
         840045762,
+        894643869,
         902777131,
+        952221320,
         1017209382,
         1063116993,
-        1193895906,
+        1063116993,
+        1063116993,
+        1254461636,
         1349188992,
         1412686833,
         1438169735,
+        1506566184,
         1540835022,
         1549107763,
-        1599112921,
         1601877766,
+        1648118392,
         1655945069,
-        1676974584,
-        1782636524,
-        1807156883,
-        1871946176,
+        1839158232,
+        1860188972,
+        1888762609,
+        1896285449,
         1944084884,
+        1986830738,
         2013812418,
-        2036694021,
+        2095700610,
+        2278910828,
+        2278910828,
+        2278910828,
         2305534152,
+        2371730203,
         2396832941,
-        2422172496,
         2485180999,
+        2507891206,
+        2598117510,
+        2658692389,
+        2771929495,
+        2794896159,
+        2847957555,
         2897589581,
+        2970789617,
         2985706653,
         3114186379,
         3115262721,
         3213705050,
-        3336532244,
         3344414355,
         3347215949,
-        3363546421,
         3371072565,
-        3530131748,
+        3564206670,
         3584156563,
+        3628707013,
+        3635981126,
         3657602018,
         3686048354,
         3772738097,
-        3816985158,
         3843395140,
-        4154245486,
-        4192771149,
-        4292539772
+        3950231551,
+        4013520275,
+        4062157076,
+        4154245486
       ],
       "status": 1,
-      "timestamp": "2019-12-15T11:21:27.3207347Z",
-      "lastWriteTimeUtc": "2019-12-15T11:21:19.5312176Z",
-      "queryTimestamp": "2019-12-15T11:21:46.8087511Z",
+      "timestamp": "2019-12-17T19:14:13.8881504Z",
+      "lastWriteTimeUtc": "2019-12-17T19:14:11.7008211Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6830129Z",
       "fileCount": 17,
       "fileSize": 0
     },
@@ -414,6 +467,19 @@
       "queryTimestamp": "2019-12-17T19:14:17.6830129Z",
       "fileCount": 1,
       "fileSize": 126699
+    },
+    {
+      "folderName": "Biome Bundle2",
+      "fingerprint": 0,
+      "fileDateHash": 1048416596,
+      "sectionID": 10,
+      "individualFingerprints": null,
+      "status": 4,
+      "timestamp": "2019-12-17T19:22:12.6487239Z",
+      "lastWriteTimeUtc": "2019-12-17T19:22:12.1360804Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 15,
+      "fileSize": 0
     },
     {
       "folderName": "dropt-1.12.2-1.16.1.jar",
@@ -546,6 +612,21 @@
       "fileSize": 266636
     },
     {
+      "folderName": "notreepunching-2.0.20.jar",
+      "fingerprint": 1913437826,
+      "fileDateHash": 1608303949,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1913437826
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.642834Z",
+      "lastWriteTimeUtc": "2019-12-16T18:21:37.8009296Z",
+      "queryTimestamp": "2019-12-17T19:14:17.683983Z",
+      "fileCount": 1,
+      "fileSize": 2121429
+    },
+    {
       "folderName": "ContentTweaker-1.12.2-4.9.1.jar",
       "fingerprint": 4180990591,
       "fileDateHash": 2886834713,
@@ -559,6 +640,21 @@
       "queryTimestamp": "2019-12-17T19:14:17.683983Z",
       "fileCount": 1,
       "fileSize": 274895
+    },
+    {
+      "folderName": "rustic-1.1.2.jar",
+      "fingerprint": 3726589320,
+      "fileDateHash": 4025220712,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3726589320
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.7285772Z",
+      "lastWriteTimeUtc": "2019-12-16T18:35:56.0924187Z",
+      "queryTimestamp": "2019-12-17T19:14:17.683983Z",
+      "fileCount": 1,
+      "fileSize": 1358969
     },
     {
       "folderName": "OreExcavation-1.4.143.jar",
@@ -696,6 +792,21 @@
       "fileSize": 201719
     },
     {
+      "folderName": "packcrashinfo-1.0.1.jar",
+      "fingerprint": 2127755136,
+      "fileDateHash": 2678047105,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2127755136
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.6827002Z",
+      "lastWriteTimeUtc": "2019-12-16T18:02:25.099028Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6850072Z",
+      "fileCount": 1,
+      "fileSize": 6611
+    },
+    {
       "folderName": "journeymap-1.12.2-5.5.5.jar",
       "fingerprint": 2552236716,
       "fileDateHash": 642604043,
@@ -769,6 +880,21 @@
       "queryTimestamp": "2019-12-17T19:14:17.6860073Z",
       "fileCount": 1,
       "fileSize": 24078
+    },
+    {
+      "folderName": "Vanilla_Vistas 1.1.jar.disabled",
+      "fingerprint": 423271096,
+      "fileDateHash": 2292856935,
+      "sectionID": 8,
+      "individualFingerprints": [
+        423271096
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.749521Z",
+      "lastWriteTimeUtc": "2019-12-10T15:26:26.9853119Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6860073Z",
+      "fileCount": 1,
+      "fileSize": 1949538
     },
     {
       "folderName": "GameStages-1.12.2-2.0.115.jar",
@@ -957,21 +1083,6 @@
       "fileSize": 0
     },
     {
-      "folderName": "Vanilla_Vistas 1.1.jar",
-      "fingerprint": 423271096,
-      "fileDateHash": 2292856935,
-      "sectionID": 8,
-      "individualFingerprints": [
-        423271096
-      ],
-      "status": 1,
-      "timestamp": "2019-12-15T11:21:27.2649835Z",
-      "lastWriteTimeUtc": "2019-12-10T15:26:26.9853119Z",
-      "queryTimestamp": "2019-12-15T11:21:46.8127398Z",
-      "fileCount": 1,
-      "fileSize": 1949538
-    },
-    {
       "folderName": "ResourceLoader-MC1.12.1-1.5.3.jar",
       "fingerprint": 699442863,
       "fileDateHash": 2646164387,
@@ -985,6 +1096,21 @@
       "queryTimestamp": "2019-12-17T19:14:17.6870026Z",
       "fileCount": 1,
       "fileSize": 16612
+    },
+    {
+      "folderName": "minecolonies-1.12.2-0.10.592-RELEASE-universal.jar",
+      "fingerprint": 2620969991,
+      "fileDateHash": 3168791920,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2620969991
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.2596758Z",
+      "lastWriteTimeUtc": "2019-12-16T18:13:01.6086186Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6870026Z",
+      "fileCount": 1,
+      "fileSize": 34702171
     },
     {
       "folderName": "athenaeum-1.12.2-1.17.4.jar",
@@ -1060,6 +1186,21 @@
       "queryTimestamp": "2019-12-17T19:14:17.6870026Z",
       "fileCount": 1,
       "fileSize": 43764
+    },
+    {
+      "folderName": "pyrotech-1.12.2-1.4.16.jar",
+      "fingerprint": 3698392987,
+      "fileDateHash": 532621919,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3698392987
+      ],
+      "status": 1,
+      "timestamp": "2019-12-17T19:14:13.6827002Z",
+      "lastWriteTimeUtc": "2019-12-16T18:13:09.4049051Z",
+      "queryTimestamp": "2019-12-17T19:14:17.6879993Z",
+      "fileCount": 1,
+      "fileSize": 3640572
     },
     {
       "folderName": "Sample2",
@@ -1371,6 +1512,73 @@
       "dateUpdated": "2019-12-10T15:46:38.1530618Z",
       "dateLastUpdateAttempted": "2019-12-10T15:46:38.1530618Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 284011,
+      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
+      "installedFile": {
+        "id": 2513171,
+        "displayName": "NoMorePunchingTree-1.12.2-1.2.jar",
+        "fileName": "NoMorePunchingTree-1.12.2-1.2.jar",
+        "fileDate": "2017-12-24T02:10:35.93Z",
+        "fileLength": 12993,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2513/171/NoMorePunchingTree-1.12.2-1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 2477998797,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 69078812,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 104250960,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "NoMorePunchingTree-1.12.2-1.2.jar"
+      },
+      "dateInstalled": "2019-12-17T19:29:38.2685835Z",
+      "dateUpdated": "2019-12-17T19:29:38.277556Z",
+      "dateLastUpdateAttempted": "2019-12-17T19:29:38.277556Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2341,6 +2549,90 @@
       "installedTargets": null
     },
     {
+      "addonID": 244870,
+      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
+      "installedFile": {
+        "id": 2710209,
+        "displayName": "terraqueous-1.12.2-1.4.17b.jar",
+        "fileName": "terraqueous-1.12.2-1.4.17b.jar",
+        "fileDate": "2019-05-12T13:23:38.32Z",
+        "fileLength": 6957382,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2710/209/terraqueous-1.12.2-1.4.17b.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 71738,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 580856566,
+            "type": 0
+          },
+          {
+            "foldername": "shetiphian",
+            "fingerprint": 2372154857,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1056212085,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 683612635,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1004257266,
+            "type": 0
+          },
+          {
+            "foldername": "terraqueous.png",
+            "fingerprint": 3774134819,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 771895027,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "terraqueous-1.12.2-1.4.17b.jar"
+      },
+      "dateInstalled": "2019-12-18T15:44:35.0151552Z",
+      "dateUpdated": "2019-12-18T15:44:35.0250966Z",
+      "dateLastUpdateAttempted": "2019-12-18T15:44:35.0250966Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 250898,
       "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
       "installedFile": {
@@ -3058,6 +3350,91 @@
       "installedTargets": null
     },
     {
+      "addonID": 284351,
+      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
+      "installedFile": {
+        "id": 2830558,
+        "displayName": "artisanworktables-1.12.2-1.22.15.jar",
+        "fileName": "artisanworktables-1.12.2-1.22.15.jar",
+        "fileDate": "2019-11-21T23:01:30.36Z",
+        "fileLength": 1131079,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2830/558/artisanworktables-1.12.2-1.22.15.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 284350,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 291181205,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2103377108,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1660121762,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2722367891,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2986343487,
+            "type": 0
+          },
+          {
+            "foldername": "yalter",
+            "fingerprint": 3704777373,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3754949366,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "artisanworktables-1.12.2-1.22.15.jar"
+      },
+      "dateInstalled": "2019-12-18T15:16:52.1700569Z",
+      "dateUpdated": "2019-12-18T15:16:52.1980347Z",
+      "dateLastUpdateAttempted": "2019-12-18T15:16:52.1980347Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 261199,
       "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
       "installedFile": {
@@ -3303,7 +3680,7 @@
       "dateInstalled": "2019-12-10T15:25:07.2635666Z",
       "dateUpdated": "2019-12-10T15:25:07.2665651Z",
       "dateLastUpdateAttempted": "2019-12-10T15:25:07.2665651Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3641,6 +4018,90 @@
       "dateUpdated": "2019-12-11T16:00:39.1566104Z",
       "dateLastUpdateAttempted": "2019-12-11T16:00:39.1566104Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 71738,
+      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
+      "installedFile": {
+        "id": 2661618,
+        "displayName": "shetiphiancore-1.12.0-3.5.9.jar",
+        "fileName": "shetiphiancore-1.12.0-3.5.9.jar",
+        "fileDate": "2019-01-18T10:51:10.353Z",
+        "fileLength": 406772,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2661/618/shetiphiancore-1.12.0-3.5.9.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1719196843,
+            "type": 0
+          },
+          {
+            "foldername": "shetiphian",
+            "fingerprint": 3973796309,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2493362397,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3192182891,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1004257266,
+            "type": 0
+          },
+          {
+            "foldername": "shetiphiancore.png",
+            "fingerprint": 99208122,
+            "type": 0
+          },
+          {
+            "foldername": "shetiphian-asm.jar",
+            "fingerprint": 482912609,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2935534804,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "shetiphiancore-1.12.0-3.5.9.jar"
+      },
+      "dateInstalled": "2019-12-18T15:44:32.95359Z",
+      "dateUpdated": "2019-12-18T15:44:32.9585762Z",
+      "dateLastUpdateAttempted": "2019-12-18T15:44:32.9585762Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5443,6 +5904,98 @@
       "dateUpdated": "2019-12-10T15:25:47.6058015Z",
       "dateLastUpdateAttempted": "2019-12-10T15:25:47.6058015Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 300297,
+      "gameInstanceID": "510d43ec-2b9b-45be-9c2b-39f78bd45f7d",
+      "installedFile": {
+        "id": 2775566,
+        "displayName": "ProjectVibrantJourneys-1.12.2-1.6.4.jar",
+        "fileName": "ProjectVibrantJourneys-1.12.2-1.6.4.jar",
+        "fileDate": "2019-08-31T20:11:16.653Z",
+        "fileLength": 1777665,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2775/566/ProjectVibrantJourneys-1.12.2-1.6.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 220318,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 267769,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 291874,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4088450296,
+            "type": 0
+          },
+          {
+            "foldername": "vibrantjourneys",
+            "fingerprint": 1298652461,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3711508520,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1286978867,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1970140748,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 125016202,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "ProjectVibrantJourneys-1.12.2-1.6.4.jar"
+      },
+      "dateInstalled": "2019-12-18T16:09:56.3383738Z",
+      "dateUpdated": "2019-12-18T16:09:56.3413856Z",
+      "dateLastUpdateAttempted": "2019-12-18T16:09:56.3413856Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
