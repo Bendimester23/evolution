@@ -1,0 +1,6 @@
+#Sat Sep 14 16:55:18 CEST 2019
+shadowDistance=100.0f
+parallaxOcclusionMapping=true
+dynamicWeather=true
+useMoonPhases=true
+ambientOcclusion=true

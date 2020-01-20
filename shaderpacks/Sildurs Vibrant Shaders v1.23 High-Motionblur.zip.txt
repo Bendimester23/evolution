@@ -1,0 +1,13 @@
+#Sat Jan 11 17:15:00 CET 2020
+bloom_strength=1.0
+Cloudsblur=true
+Depth_of_Field=true
+Distance_Blur=true
+Lens_Flares=true
+MB_strength=0.008
+nMap=1
+shadowMapResolution=3072
+SSDO=true
+Volumetric_Lighting=true
+WeatherAngle=true
+wFogDensity=50.0

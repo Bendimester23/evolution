@@ -2,6 +2,8 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
+//tools
+
 var clay_pickaxe = VanillaFactory.createItem("clay_pickaxe");
 clay_pickaxe.maxStackSize = 1;
 clay_pickaxe.toolClass = "pickaxe";
