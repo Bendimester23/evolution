@@ -1,2 +1,2 @@
-# evolution
-is a minecraft modpack
+# Evolution
+Is a minecraft modpack
