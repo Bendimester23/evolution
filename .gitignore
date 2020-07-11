@@ -3,3 +3,64 @@
 **/journeymap
 **/shaderpacks
 **/crash-reports
+*.log
+config/jei/worldSettings.cfg
+crafttweaker.log
+icon.png
+journeymap/config/5.5/journeymap.core.config
+journeymap/config/5.5/journeymap.fullmap.config
+journeymap/config/5.5/journeymap.minimap.config
+journeymap/config/5.5/journeymap.minimap2.config
+journeymap/config/5.5/journeymap.topo.config
+journeymap/config/5.5/journeymap.waypoint.config
+journeymap/config/5.5/journeymap.webmap.config
+journeymap/data/sp/Biome Bundle4/DIM0/5/0,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/5/0,-2.png
+journeymap/data/sp/Biome Bundle4/DIM0/day/-1,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/day/0,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/day/0,-2.png
+journeymap/data/sp/Biome Bundle4/DIM0/night/-1,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/night/0,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/night/0,-2.png
+journeymap/data/sp/Biome Bundle4/DIM0/topo/-1,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/topo/0,-1.png
+journeymap/data/sp/Biome Bundle4/DIM0/topo/0,-2.png
+journeymap/icon/theme/flat/DesertTemple.theme2.json
+journeymap/icon/theme/flat/EndCity.theme2.json
+journeymap/icon/theme/flat/ForestMansion.theme2.json
+journeymap/icon/theme/flat/NetherFortress.theme2.json
+journeymap/icon/theme/flat/OceanMonument.theme2.json
+journeymap/icon/theme/flat/Purist.theme2.json
+journeymap/icon/theme/flat/Stronghold.theme2.json
+journeymap/journeymap.log
+local/client/sidebar_buttons.json
+logs/debug-1.log.gz
+logs/debug-2.log.gz
+logs/debug-3.log.gz
+logs/debug-4.log.gz
+logs/debug-5.log.gz
+logs/debug.log
+logs/latest.log
+mods/FTBUtilities-5.4.0.124.jar
+mods/FTBUtilities-5.4.0.124.jar.disabled
+options.txt
+optionsshaders.txt
+patchouli_data.json
+saves/Biome Bundle4/data/ftb_lib/players/bendimester23.dat
+saves/Biome Bundle4/data/ftb_lib/teams/ftbquests/singleplayer.dat
+saves/Biome Bundle4/data/ftb_lib/teams/singleplayer.dat
+saves/Biome Bundle4/data/ftb_lib/universe.dat
+saves/Biome Bundle4/data/midnight.bridge_manager.dat
+saves/Biome Bundle4/data/villages.dat
+saves/Biome Bundle4/DIM-23/data/villages_midnight.dat
+saves/Biome Bundle4/level.dat
+saves/Biome Bundle4/level.dat_old
+saves/Biome Bundle4/region/r.-1.-1.mca
+saves/Biome Bundle4/region/r.-1.-2.mca
+saves/Biome Bundle4/region/r.-1.0.mca
+saves/Biome Bundle4/region/r.0.-1.mca
+saves/Biome Bundle4/region/r.0.-2.mca
+saves/Biome Bundle4/region/r.0.0.mca
+saves/Biome Bundle4/session.lock
+usercache.json
+usernamecache.json
