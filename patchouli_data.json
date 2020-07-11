@@ -47,7 +47,12 @@
       "viewedEntries": [
         "patchouli:test_entry"
       ],
-      "bookmarks": [],
+      "bookmarks": [
+        {
+          "entry": "patchouli:test_entry",
+          "page": 0
+        }
+      ],
       "history": [
         "patchouli:test_entry"
       ],
